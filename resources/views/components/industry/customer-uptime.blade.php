@@ -1,0 +1,29 @@
+@props(['industry'])
+
+<section class="py-20 bg-zinc-900/50">
+    <div class="container">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Screenshot Placeholder -->
+                <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center order-2 lg:order-1">
+                    <span class="text-white/40">Customer Uptime Screenshot</span>
+                </div>
+
+                <div class="order-1 lg:order-2">
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
+                        {{ $industry['customerUptime']['title'] }}
+                    </h2>
+                    <p class="text-lg text-white/80 mb-8">
+                        {{ $industry['customerUptime']['description'] }}
+                    </p>
+                    <a href="/features/customer-portal" class="text-primary-400 hover:text-primary-300 font-medium inline-flex items-center gap-2">
+                        Learn More About Our Uptime Solutions
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

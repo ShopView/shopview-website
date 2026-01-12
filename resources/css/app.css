@@ -1,0 +1,421 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* Custom properties for dark theme */
+:root {
+  --color-bg-primary: #0a0a0a;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-tertiary: #2a2a2a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a0a0a0;
+  --color-accent: #257CFF;
+  --color-accent-hover: #1a5cc5;
+  --gradient-overlay: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Utility classes */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+/* Button styles */
+.btn {
+  @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-block text-center;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+  background-color: var(--color-accent);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  @apply border-2 border-white/20 text-white hover:bg-white/10;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white/5 backdrop-blur-sm rounded-xl p-6 transition-all duration-300;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card:hover {
+  @apply bg-white/10;
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Guide Section Styles */
+.guide-section {
+  --header-height: 80px;
+  --card-height: 180px;
+}
+
+.guide-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .guide-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-sidebar {
+    display: none;
+  }
+}
+
+/* Sidebar */
+.guide-sidebar {
+  position: sticky;
+  top: calc(var(--header-height) + 20px);
+  max-height: calc(100vh - var(--header-height) - 40px);
+  display: flex;
+  flex-direction: column;
+}
+
+.guide-sidebar-title {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.guide-nav {
+  flex: 1;
+  overflow-y: auto;
+  max-height: calc(100vh - var(--header-height) - var(--card-height) - 140px);
+  padding-right: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.guide-nav::-webkit-scrollbar {
+  width: 4px;
+}
+
+.guide-nav::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+}
+
+.guide-nav::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+}
+
+.guide-nav::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.guide-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guide-nav-link {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.625rem 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.guide-nav-link:hover {
+  color: var(--color-accent);
+}
+
+.guide-nav-link.active {
+  color: var(--color-accent);
+  border-left-color: var(--color-accent);
+  background: rgba(37, 124, 255, 0.1);
+}
+
+.guide-nav-number {
+  flex: 0 0 1.5rem;
+  text-align: right;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.guide-nav-title {
+  flex: 1;
+}
+
+/* Trial Card */
+.guide-trial-card {
+  background: linear-gradient(135deg, #508DE8 0%, #3b7dd8 100%);
+  border-radius: 12px;
+  padding: 1.25rem;
+  color: white;
+  flex-shrink: 0;
+}
+
+.guide-trial-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.guide-trial-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.guide-trial-btn {
+  display: inline-block;
+  background: white;
+  color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.guide-trial-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.guide-trial-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 1rem 0;
+}
+
+/* Content */
+.guide-content-block {
+  margin-bottom: 4rem;
+  scroll-margin-top: 120px;
+}
+
+.guide-content-block:last-child {
+  margin-bottom: 0;
+}
+
+/* Prose styles for guide content */
+.guide-content-block .prose {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.75;
+}
+
+.guide-content-block .prose p {
+  margin-bottom: 1.25rem;
+}
+
+.guide-content-block .prose h4 {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.guide-content-block .prose ul,
+.guide-content-block .prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.guide-content-block .prose li {
+  margin-bottom: 0.5rem;
+}
+
+.guide-content-block .prose strong {
+  color: white;
+  font-weight: 600;
+}
+
+.guide-content-block .prose a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.guide-content-block .prose a:hover {
+  color: var(--color-accent-hover);
+}
+
+/* HubSpot Form Styles - Dark Theme */
+.hs-form-private {
+  font-family: system-ui, -apple-system, sans-serif !important;
+}
+
+.hs-form-private .hs-form-field {
+  margin-bottom: 1.25rem !important;
+}
+
+.hs-form-private label {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.5rem !important;
+  display: block !important;
+}
+
+.hs-form-private .hs-input {
+  width: 100% !important;
+  padding: 0.75rem 1rem !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 0.5rem !important;
+  color: white !important;
+  font-size: 1rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.hs-form-private .hs-input:focus {
+  outline: none !important;
+  border-color: var(--color-accent) !important;
+  box-shadow: 0 0 0 3px rgba(37, 124, 255, 0.2) !important;
+}
+
+.hs-form-private .hs-input::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.hs-form-private select.hs-input {
+  appearance: none !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='rgba(255,255,255,0.6)'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E") !important;
+  background-position: right 0.75rem center !important;
+  background-repeat: no-repeat !important;
+  background-size: 1.25rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.hs-form-private .hs-button {
+  width: 100% !important;
+  padding: 0.875rem 1.5rem !important;
+  background-color: var(--color-accent) !important;
+  border: none !important;
+  border-radius: 0.5rem !important;
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.hs-form-private .hs-button:hover {
+  background-color: var(--color-accent-hover) !important;
+  transform: translateY(-1px) !important;
+}
+
+.hs-form-private .hs-error-msgs {
+  list-style: none !important;
+  padding: 0 !important;
+  margin-top: 0.5rem !important;
+}
+
+.hs-form-private .hs-error-msgs li {
+  color: #f87171 !important;
+  font-size: 0.875rem !important;
+}
+
+.hs-form-private .hs-form-required {
+  color: #f87171 !important;
+}
+
+/* Legal consent checkbox styling */
+.hs-form-private .hs-form-booleancheckbox {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.5rem !important;
+}
+
+.hs-form-private .hs-form-booleancheckbox input[type="checkbox"] {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-top: 0.25rem !important;
+  flex-shrink: 0 !important;
+}
+
+.hs-form-private .hs-form-booleancheckbox span {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 0.75rem !important;
+  line-height: 1.4 !important;
+}
+
+.hs-form-private .legal-consent-container {
+  margin-top: 1rem !important;
+  padding-top: 1rem !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.hs-form-private .hs-richtext {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 0.75rem !important;
+  line-height: 1.5 !important;
+}
+
+.hs-form-private .hs-richtext a {
+  color: var(--color-accent) !important;
+  text-decoration: underline !important;
+}
+
+/* Submitted message styling */
+.submitted-message {
+  color: white !important;
+  text-align: center !important;
+  padding: 2rem !important;
+}
+
+.submitted-message p {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 1.125rem !important;
+}
