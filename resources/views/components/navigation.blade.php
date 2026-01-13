@@ -1,43 +1,43 @@
 @php
 $runTheShopLinks = [
-    ['href' => '/features/work-orders', 'label' => 'Work Orders', 'desc' => 'Create work orders in under 2 minutes'],
-    ['href' => '/features/estimates-invoices', 'label' => 'Estimates & Invoices', 'desc' => 'Professional quotes and billing'],
-    ['href' => '/features/scheduling', 'label' => 'Scheduling', 'desc' => 'Smart technician scheduling'],
-    ['href' => '/features/technician-time-tracking', 'label' => 'Time Clock', 'desc' => 'Track labor hours accurately'],
-    ['href' => '/features/inventory-management', 'label' => 'Parts Inventory', 'desc' => 'Parts tracking and ordering'],
-    ['href' => '/features/reporting-analytics', 'label' => 'Reporting', 'desc' => 'Insights to grow your business'],
+    ['href' => '/features/work-orders', 'label' => 'Work Orders', 'desc' => 'Create work orders in under 2 minutes', 'icon' => '/images/icons/Work Orders.webp'],
+    ['href' => '/features/estimates-invoices', 'label' => 'Estimates & Invoices', 'desc' => 'Professional quotes and billing', 'icon' => '/images/icons/Estimates & Invoices.webp'],
+    ['href' => '/features/scheduling', 'label' => 'Scheduling', 'desc' => 'Smart technician scheduling', 'icon' => '/images/icons/Scheduling.webp'],
+    ['href' => '/features/technician-time-tracking', 'label' => 'Time Clock', 'desc' => 'Track labor hours accurately', 'icon' => '/images/icons/Time clock.webp'],
+    ['href' => '/features/inventory-management', 'label' => 'Parts Inventory', 'desc' => 'Parts tracking and ordering', 'icon' => '/images/icons/Parts inventory.webp'],
+    ['href' => '/features/reporting-analytics', 'label' => 'Reporting', 'desc' => 'Insights to grow your business', 'icon' => '/images/icons/Reporting.webp'],
 ];
 
 $customerExperienceLinks = [
-    ['href' => '/features/shoppay', 'label' => 'ShopPay', 'desc' => 'Accept payments anywhere', 'new' => true],
-    ['href' => '/features/customer-portal', 'label' => 'Customer Portal', 'desc' => 'Self-service for customers', 'new' => true],
+    ['href' => '/features/shoppay', 'label' => 'ShopPay', 'desc' => 'Accept payments anywhere', 'new' => true, 'icon' => '/images/icons/Customer Portal.webp'],
+    ['href' => '/features/customer-portal', 'label' => 'Customer Portal', 'desc' => 'Self-service for customers', 'new' => true, 'icon' => '/images/icons/portal_247CFF.webp'],
 ];
 
 $growthServicesLinks = [
-    ['href' => '/services/websites', 'label' => 'Website Creation', 'desc' => 'Professional shop websites'],
-    ['href' => '/services/leads', 'label' => 'Lead Generation', 'desc' => 'Get more customers'],
-    ['href' => '/services/bookkeeping', 'label' => 'Bookkeeping', 'desc' => 'Managed accounting services', 'new' => true],
+    ['href' => '/services/websites', 'label' => 'Website Creation', 'desc' => 'Professional shop websites', 'icon' => '/images/icons/Website Creation.webp'],
+    ['href' => '/services/leads', 'label' => 'Lead Generation', 'desc' => 'Get more customers', 'icon' => '/images/icons/Lead Generation.webp'],
+    ['href' => '/services/bookkeeping', 'label' => 'Bookkeeping', 'desc' => 'Managed accounting services', 'new' => true, 'icon' => '/images/icons/Bookkeeping.webp'],
 ];
 
 $integrationsLinks = [
-    ['href' => '/integrations/shopcoach', 'label' => 'ShopCoach AI', 'desc' => 'AI-powered shop assistant'],
-    ['href' => '/integrations/quickbooks', 'label' => 'QuickBooks', 'desc' => 'Sync with QuickBooks Online'],
-    ['href' => '/integrations/ibs', 'label' => 'IBS', 'desc' => 'Heavy-duty parts catalog'],
-    ['href' => '/features/vin-decoder', 'label' => 'VIN Decoder', 'desc' => 'Instant vehicle identification'],
-    ['href' => '/integrations/labor-guides', 'label' => 'Labor Guides', 'desc' => 'AI-powered labor times'],
+    ['href' => '/integrations/shopcoach', 'label' => 'ShopCoach AI', 'desc' => 'AI-powered shop assistant', 'icon' => '/images/icons/ShopCoach ai.webp'],
+    ['href' => '/integrations/quickbooks', 'label' => 'QuickBooks', 'desc' => 'Sync with QuickBooks Online', 'icon' => '/images/icons/quickbooks.webp'],
+    ['href' => '/integrations/ibs', 'label' => 'IBS', 'desc' => 'Heavy-duty parts catalog', 'icon' => '/images/icons/ibs.webp'],
+    ['href' => '/features/vin-decoder', 'label' => 'VIN Decoder', 'desc' => 'Instant vehicle identification', 'icon' => '/images/icons/vin.webp'],
+    ['href' => '/integrations/labor-guides', 'label' => 'Labor Guides', 'desc' => 'AI-powered labor times', 'icon' => '/images/icons/labor.webp'],
 ];
 
 $solutionsLinks = [
-    ['href' => '/diesel-truck-repair-shop-software', 'label' => 'Diesel Truck Repair', 'desc' => 'Built for parts-heavy environments'],
-    ['href' => '/heavy-equipment-repair-software', 'label' => 'Heavy Equipment Repair', 'desc' => 'Built for field service and complex machinery'],
-    ['href' => '/fleet-maintenance-management-software', 'label' => 'Fleet Maintenance', 'desc' => 'Built for internal fleet operations'],
-    ['href' => '/agriculture-equipment-repair-shop-software', 'label' => 'Agricultural Equipment', 'desc' => 'Built for seasonal demands'],
-    ['href' => '/fire-truck-and-ambulance-repair-shop-software', 'label' => 'Fire Truck & Ambulance', 'desc' => 'Built for uptime and compliance'],
-    ['href' => '/truck-and-trailer-repair-shop-software', 'label' => 'Truck & Trailer Repair', 'desc' => 'Built for combined unit repairs'],
-    ['href' => '/construction-fleet-maintenance-software', 'label' => 'Construction Fleet', 'desc' => 'Built for jobsite demands'],
-    ['href' => '/tow-truck-repair-shop-software', 'label' => 'Tow Truck Repair', 'desc' => 'Built for 24/7 operations'],
-    ['href' => '/mobile-equipment-repair-shop-software', 'label' => 'Mobile Equipment Repair', 'desc' => 'Built for on-site service'],
-    ['href' => '/rv-repair-shop-software', 'label' => 'RV Repair Shop', 'desc' => 'Built for multi-system repairs'],
+    ['href' => '/diesel-truck-repair-shop-software', 'label' => 'Diesel Truck Repair', 'desc' => 'Built for parts-heavy environments', 'icon' => '/images/icons/Diesel Truck Repair Shop.webp'],
+    ['href' => '/heavy-equipment-repair-software', 'label' => 'Heavy Equipment Repair', 'desc' => 'Built for field service and complex machinery', 'icon' => '/images/icons/Heavy Equipment Repair.webp'],
+    ['href' => '/fleet-maintenance-management-software', 'label' => 'Fleet Maintenance', 'desc' => 'Built for internal fleet operations', 'icon' => '/images/icons/Fleet Maintenance Management.webp'],
+    ['href' => '/agriculture-equipment-repair-shop-software', 'label' => 'Agricultural Equipment', 'desc' => 'Built for seasonal demands', 'icon' => '/images/icons/Agricultural_Equipment_Repair_247CFF.webp'],
+    ['href' => '/fire-truck-and-ambulance-repair-shop-software', 'label' => 'Fire Truck & Ambulance', 'desc' => 'Built for uptime and compliance', 'icon' => '/images/icons/Fire Truck & Ambulance Repair.webp'],
+    ['href' => '/truck-and-trailer-repair-shop-software', 'label' => 'Truck & Trailer Repair', 'desc' => 'Built for combined unit repairs', 'icon' => '/images/icons/Truck & Trailer Repair.webp'],
+    ['href' => '/construction-fleet-maintenance-software', 'label' => 'Construction Fleet', 'desc' => 'Built for jobsite demands', 'icon' => '/images/icons/Construction Fleet Maintenance.webp'],
+    ['href' => '/tow-truck-repair-shop-software', 'label' => 'Tow Truck Repair', 'desc' => 'Built for 24/7 operations', 'icon' => '/images/icons/Tow Truck Repair.webp'],
+    ['href' => '/mobile-equipment-repair-shop-software', 'label' => 'Mobile Equipment Repair', 'desc' => 'Built for on-site service', 'icon' => '/images/icons/Mobile Equipment Repair.webp'],
+    ['href' => '/rv-repair-shop-software', 'label' => 'RV Repair Shop', 'desc' => 'Built for multi-system repairs', 'icon' => '/images/icons/RV Repair.webp'],
 ];
 @endphp
 
@@ -74,10 +74,14 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($runTheShopLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors">
-                                                        <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                                                        </svg>
+                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                        @if(!empty($link['icon']))
+                                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-6 h-6 object-contain">
+                                                        @else
+                                                            <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                                            </svg>
+                                                        @endif
                                                     </div>
                                                     <div>
                                                         <div class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">{{ $link['label'] }}</div>
@@ -94,10 +98,14 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($customerExperienceLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors">
-                                                        <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                                        </svg>
+                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                        @if(!empty($link['icon']))
+                                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-6 h-6 object-contain">
+                                                        @else
+                                                            <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                                            </svg>
+                                                        @endif
                                                     </div>
                                                     <div class="flex items-center gap-2">
                                                         <div>
@@ -122,10 +130,14 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($growthServicesLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors">
-                                                        <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-                                                        </svg>
+                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                        @if(!empty($link['icon']))
+                                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-6 h-6 object-contain">
+                                                        @else
+                                                            <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                                            </svg>
+                                                        @endif
                                                     </div>
                                                     <div class="flex items-center gap-2">
                                                         <div>
@@ -147,10 +159,14 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($integrationsLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors">
-                                                        <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
-                                                        </svg>
+                                                    <div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                        @if(!empty($link['icon']))
+                                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-6 h-6 object-contain">
+                                                        @else
+                                                            <svg class="w-4 h-4 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+                                                            </svg>
+                                                        @endif
                                                     </div>
                                                     <div>
                                                         <div class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">{{ $link['label'] }}</div>
@@ -179,11 +195,15 @@ $solutionsLinks = [
                             <div class="grid grid-cols-2 gap-2">
                                 @foreach($solutionsLinks as $link)
                                     <a href="{{ $link['href'] }}" class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                        <!-- Icon Placeholder -->
-                                        <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors">
-                                            <svg class="w-5 h-5 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
-                                            </svg>
+                                        <!-- Icon -->
+                                        <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                            @if(!empty($link['icon']))
+                                                <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-8 h-8 object-contain">
+                                            @else
+                                                <svg class="w-5 h-5 text-white/40 group-hover/item:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                                                </svg>
+                                            @endif
                                         </div>
                                         <div>
                                             <div class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">
