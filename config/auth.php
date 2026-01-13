@@ -4,6 +4,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Basic Auth for Staging
+    |--------------------------------------------------------------------------
+    |
+    | These credentials are used to protect the staging site from public access.
+    | Set both values in your .env file to enable basic auth protection.
+    | Leave them empty or remove them to disable protection.
+    |
+    */
+
+    'basic_username' => env('BASIC_AUTH_USERNAME'),
+    'basic_password' => env('BASIC_AUTH_PASSWORD'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Authentication Defaults
     |--------------------------------------------------------------------------
     |
