@@ -65,13 +65,7 @@ $roles = [
                             class="role-accordion-btn w-full flex items-center justify-between p-5 text-left bg-white/5 hover:bg-white/10 transition-colors"
                             data-index="{{ $index }}"
                         >
-                            <div class="flex items-center gap-4">
-                                <!-- Icon Placeholder -->
-                                <div class="w-10 h-10 border border-white/20 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0">
-                                    <span class="text-white/40 text-xs">Icon</span>
-                                </div>
-                                <span class="text-lg font-semibold">{{ $role['title'] }}</span>
-                            </div>
+                            <span class="text-lg font-semibold" style="color: #247CFF;">{{ $role['title'] }}</span>
                             <svg class="role-accordion-icon w-5 h-5 transition-transform duration-300 {{ $index === 0 ? 'rotate-180' : '' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                             </svg>

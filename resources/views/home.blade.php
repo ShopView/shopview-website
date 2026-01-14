@@ -38,7 +38,6 @@
         <x-home.role-benefits />
 
         {{-- Second Testimonials Carousel --}}
-        <x-home.testimonials-second />
 
         {{-- Feature Highlights --}}
         <x-home.feature-highlights />

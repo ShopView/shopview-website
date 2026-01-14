@@ -17,8 +17,8 @@
             <div class="grid md:grid-cols-3 gap-8">
                 @foreach($industry['inventory']['features'] as $feature)
                     <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                        <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
                             </svg>
                         </div>

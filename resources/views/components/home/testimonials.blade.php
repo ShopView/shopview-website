@@ -6,6 +6,7 @@ $testimonials = [
         'author' => 'Heather F.',
         'role' => 'Administrator',
         'rating' => 5,
+        'source' => 'g2',
     ],
     [
         'title' => 'Automotive & HD shop management software',
@@ -13,6 +14,7 @@ $testimonials = [
         'author' => 'Kerri W.',
         'role' => 'Parts Specialist',
         'rating' => 5,
+        'source' => 'capterra',
     ],
     [
         'title' => 'ShopView is a game-changing program.',
@@ -20,6 +22,7 @@ $testimonials = [
         'author' => 'Taylor S.',
         'role' => 'General Manager',
         'rating' => 5,
+        'source' => 'capterra',
     ],
     [
         'title' => 'Hands down the best platform for Fleets!',
@@ -27,6 +30,7 @@ $testimonials = [
         'author' => 'Brian W.',
         'role' => 'Fleet Coordinator',
         'rating' => 5,
+        'source' => 'g2',
     ],
     [
         'title' => 'Finally, a system that lets technicians focus on the work',
@@ -34,6 +38,7 @@ $testimonials = [
         'author' => 'Hudson P.',
         'role' => 'Technician',
         'rating' => 5,
+        'source' => 'g2',
     ],
 ];
 @endphp
@@ -74,11 +79,13 @@ $testimonials = [
                                     @endif
                                 </div>
 
-                                <!-- Company Logo Placeholder -->
+                                <!-- Review Source Logo -->
                                 <div class="mt-6 flex justify-center">
-                                    <div class="w-24 h-12 border border-white/20 rounded bg-white/5 flex items-center justify-center">
-                                        <span class="text-white/40 text-xs">Logo</span>
-                                    </div>
+                                    @if($testimonial['source'] === 'g2')
+                                        <img src="/images/logos/g2-logo-white-black.webp" alt="G2 Review" class="h-8 w-auto object-contain opacity-70">
+                                    @else
+                                        <img src="/images/logos/Capterra - Transparent.png" alt="Capterra Review" class="h-8 w-auto object-contain opacity-70">
+                                    @endif
                                 </div>
                             </div>
                         </div>

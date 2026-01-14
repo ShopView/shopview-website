@@ -1,11 +1,10 @@
 @php
 $customerLogos = [
-    'Customer Logo 1',
-    'Customer Logo 2',
-    'Customer Logo 3',
-    'Customer Logo 4',
-    'Customer Logo 5',
-    'Customer Logo 6',
+    ['name' => 'Foothills Group', 'image' => '/images/logos/Customer Logo - Foothills-Group-Logo.png'],
+    ['name' => 'Grizzly', 'image' => '/images/logos/Customer Logo - Grizzly.webp'],
+    ['name' => 'HCRS', 'image' => '/images/logos/Customer Logo - HCRS.png'],
+    ['name' => 'Iron Resources', 'image' => '/images/logos/Customer Logo - Iron-Resources.png'],
+    ['name' => 'Short Track', 'image' => '/images/logos/Customer Logo - Short Track.webp'],
 ];
 @endphp
 
@@ -20,11 +19,11 @@ $customerLogos = [
             </p>
         </div>
 
-        <!-- Placeholder logo grid -->
+        <!-- Customer logo grid -->
         <div class="flex flex-wrap justify-center items-center gap-8">
-            @foreach($customerLogos as $name)
-                <div class="w-40 h-20 flex items-center justify-center border border-white/20 rounded-lg bg-white/5">
-                    <span class="text-white/40 text-sm">{{ $name }}</span>
+            @foreach($customerLogos as $logo)
+                <div class="w-40 h-20 flex items-center justify-center">
+                    <img src="{{ $logo['image'] }}" alt="{{ $logo['name'] }}" class="max-h-16 max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity">
                 </div>
             @endforeach
         </div>

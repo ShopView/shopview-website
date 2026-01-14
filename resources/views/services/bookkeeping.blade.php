@@ -82,7 +82,7 @@
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Fully Managed Accounting</h3>
@@ -92,7 +92,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">QuickBooks Sync</h3>
@@ -102,7 +102,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Real-Time Financials</h3>
@@ -112,7 +112,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Error-Free Closeouts</h3>
@@ -140,7 +140,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Month-End Made Easy</h3>
@@ -150,7 +150,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Built for Heavy-Duty Shops</h3>
@@ -160,7 +160,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Real Visibility Into Your Shop</h3>
@@ -185,7 +185,7 @@
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Save Hours Every Week</h3>
@@ -195,7 +195,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Accuracy You Can Trust</h3>
@@ -205,7 +205,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Financial Confidence</h3>
@@ -215,7 +215,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">More Time to Run Your Shop</h3>

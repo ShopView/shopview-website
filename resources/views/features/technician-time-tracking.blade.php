@@ -59,7 +59,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Job-Based Time Tracking</h3>
@@ -69,7 +69,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Start/Stop Simplicity</h3>
@@ -79,7 +79,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">No More Missed Time</h3>
@@ -107,7 +107,7 @@
 
                     <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Instant Payroll Reports</h3>
@@ -117,7 +117,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">More Billable Time</h3>
@@ -145,7 +145,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Live Activity View</h3>
@@ -155,7 +155,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Track Efficiency</h3>
@@ -165,7 +165,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Audit-Ready Logs</h3>
@@ -263,7 +263,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
-                            <div class="w-16 h-16 bg-primary-500/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
@@ -273,7 +273,7 @@
                         </div>
 
                         <div class="text-center">
-                            <div class="w-16 h-16 bg-primary-500/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
@@ -283,7 +283,7 @@
                         </div>
 
                         <div class="text-center">
-                            <div class="w-16 h-16 bg-primary-500/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>

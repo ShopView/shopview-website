@@ -170,7 +170,7 @@
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Work Orders in Seconds</h3>
@@ -180,7 +180,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">More Revenue Per Job</h3>
@@ -190,7 +190,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Accurate by Design</h3>
@@ -200,7 +200,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Less Admin, More Repairs</h3>
@@ -225,35 +225,35 @@
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-sm font-semibold">VIN Decoding + Service History</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-sm font-semibold">Inventory & Parts Catalog Access</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-sm font-semibold">QuickBooks Integration</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-sm font-semibold">Cloud-Based + Mobile-Friendly</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-sm font-semibold">Use It on Day One, No Training Required</h3>
