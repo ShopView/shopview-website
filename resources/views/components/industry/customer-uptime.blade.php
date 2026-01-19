@@ -4,9 +4,9 @@
     <div class="container">
         <div class="max-w-6xl mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <!-- Screenshot Placeholder -->
-                <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center order-2 lg:order-1">
-                    <span class="text-white/40">Customer Uptime Screenshot</span>
+                <!-- Screenshot -->
+                <div class="rounded-xl overflow-hidden order-2 lg:order-1">
+                    <img src="{{ asset('images/screenshots/Improve Customer Equipment Uptime.png') }}" alt="Customer Uptime Dashboard" class="w-full h-auto rounded-xl">
                 </div>
 
                 <div class="order-1 lg:order-2">
