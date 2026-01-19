@@ -134,9 +134,9 @@
                             </p>
                         </div>
 
-                        <!-- Image Placeholder -->
-                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                            <span class="text-white/40">Customer Portal Screenshot</span>
+                        <!-- Screenshot -->
+                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
+                            <img src="{{ asset('images/screenshots/Fleet Growth Target List & Chart.png') }}" alt="ShopView Customer Portal" class="w-full h-full object-cover">
                         </div>
                     </div>
                 </div>

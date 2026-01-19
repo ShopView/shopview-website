@@ -79,9 +79,9 @@
         <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-                    <!-- Screenshot Placeholder -->
-                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center order-2 lg:order-1">
-                        <span class="text-white/40">Screenshot Placeholder</span>
+                    <!-- Screenshot -->
+                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden order-2 lg:order-1">
+                        <img src="{{ asset('images/screenshots/Work orders.png') }}" alt="ShopView Estimates Interface" class="w-full h-full object-cover">
                     </div>
 
                     <div class="order-1 lg:order-2">
@@ -170,9 +170,9 @@
                         </div>
                     </div>
 
-                    <!-- Screenshot Placeholder -->
-                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                        <span class="text-white/40">Screenshot Placeholder</span>
+                    <!-- Screenshot -->
+                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
+                        <img src="{{ asset('images/screenshots/Payments & Batch Transactions.png') }}" alt="ShopView Invoice Tracking" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>

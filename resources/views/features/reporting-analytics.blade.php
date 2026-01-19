@@ -131,9 +131,9 @@
                             </p>
                         </div>
 
-                        <!-- Image Placeholder -->
-                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                            <span class="text-white/40">Analytics Dashboard Screenshot</span>
+                        <!-- Screenshot -->
+                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
+                            <img src="{{ asset('images/screenshots/Growth Over Time.png') }}" alt="ShopView Analytics Dashboard" class="w-full h-full object-cover">
                         </div>
                     </div>
                 </div>

@@ -33,9 +33,9 @@
                             Time is money. That's why ShopView gives you the tools to build fully detailed work orders or estimates in less than 2 minutes - start to finish. Whether you're writing up a new repair, reviewing past service history, or converting an estimate into an invoice, ShopView's repair shop work order software gets it done faster.
                         </p>
                     </div>
-                    <!-- Screenshot Placeholder -->
-                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                        <span class="text-white/40">Screenshot Placeholder</span>
+                    <!-- Screenshot -->
+                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
+                        <img src="{{ asset('images/screenshots/Work Order Home.png') }}" alt="ShopView Work Order Interface" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -98,9 +98,9 @@
         <section class="py-20">
             <div class="container">
                 <div class="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-                    <!-- Screenshot Placeholder -->
-                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center order-2 lg:order-1">
-                        <span class="text-white/40">Screenshot Placeholder</span>
+                    <!-- Screenshot -->
+                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden order-2 lg:order-1">
+                        <img src="{{ asset('images/screenshots/Work orders & Track Time.png') }}" alt="ShopView Collaborative Workflow" class="w-full h-full object-cover">
                     </div>
 
                     <div class="order-1 lg:order-2">
@@ -189,9 +189,9 @@
                         </div>
                     </div>
 
-                    <!-- Screenshot Placeholder -->
-                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                        <span class="text-white/40">Screenshot Placeholder</span>
+                    <!-- Screenshot -->
+                    <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
+                        <img src="{{ asset('images/screenshots/Work orders_v2.png') }}" alt="ShopView Work Order to Invoice" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>

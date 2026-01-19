@@ -35,9 +35,9 @@
                             </p>
                         </div>
 
-                        <!-- Image Placeholder -->
-                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                            <span class="text-white/40">Time Clock Screenshot</span>
+                        <!-- Screenshot -->
+                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
+                            <img src="{{ asset('images/screenshots/Staff & Technician Efficiency.png') }}" alt="ShopView Time Clock Interface" class="w-full h-full object-cover">
                         </div>
                     </div>
                 </div>

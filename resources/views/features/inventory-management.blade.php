@@ -35,9 +35,9 @@
                             </p>
                         </div>
 
-                        <!-- Image Placeholder -->
-                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                            <span class="text-white/40">Cycle Counts Screenshot</span>
+                        <!-- Screenshot -->
+                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
+                            <img src="{{ asset('images/screenshots/Inventory & New inventory part.png') }}" alt="ShopView Inventory Management" class="w-full h-full object-cover">
                         </div>
                     </div>
                 </div>
