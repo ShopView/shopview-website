@@ -176,8 +176,8 @@
                         </div>
 
                         <!-- Screenshot -->
-                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl overflow-hidden">
-                            <img src="{{ asset('images/screenshots/Secure Payments.png') }}" alt="ShopPay Payment Interface" class="w-full h-full object-cover">
+                        <div class="rounded-xl overflow-hidden">
+                            <img src="{{ asset('images/screenshots/Secure Payments.png') }}" alt="ShopPay Payment Interface" class="w-full h-auto rounded-xl">
                         </div>
                     </div>
                 </div>
