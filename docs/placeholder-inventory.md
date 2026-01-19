@@ -1,6 +1,6 @@
 # 📋 Complete Placeholder Images & Icons Inventory
 
-Last updated: January 14, 2026
+Last updated: January 15, 2026
 
 ---
 
@@ -24,17 +24,17 @@ Last updated: January 14, 2026
 ### 4. Work Order Section (`work-order-section.blade.php`)
 | Type | Count | Description | Status |
 |------|-------|-------------|--------|
-| Screenshot | **1** | Work order feature screenshot | ❌ Needed |
+| Screenshot | **1** | Work order feature screenshot | ✅ Done (`Work orders.png`) |
 
 ### 5. Scheduling Section (`scheduling-section.blade.php`)
 | Type | Count | Description | Status |
 |------|-------|-------------|--------|
-| Screenshot | **1** | Scheduling feature screenshot | ❌ Needed |
+| Screenshot | **1** | Scheduling feature screenshot | ✅ Done (`Locations & Select Shop Location.png`) |
 
 ### 6. Reporting Section (`reporting-section.blade.php`)
 | Type | Count | Description | Status |
 |------|-------|-------------|--------|
-| Screenshot | **1** | Reporting/analytics screenshot | ❌ Needed |
+| Screenshot | **1** | Reporting/analytics screenshot | ✅ Done (`payments_home.webp`) |
 
 ### 7. Origin Story Section (`origin-story.blade.php`)
 | Type | Count | Description | Status |
@@ -127,7 +127,7 @@ Last updated: January 14, 2026
 
 | Category | Count | Completed |
 |----------|-------|-----------|
-| **Homepage Screenshots** | 5 | 0 |
+| **Homepage Screenshots** | 5 | ✅ 3 |
 | **Homepage Icons** | 6 | ✅ 6 |
 | **Homepage Customer/Company Logos** | 5 | ✅ 5 |
 | **Testimonial Source Logos** | 2 | ✅ 2 |
@@ -142,11 +142,11 @@ Last updated: January 14, 2026
 
 ---
 
-## **GRAND TOTAL: ~83 placeholder assets needed**
+## **GRAND TOTAL: ~80 placeholder assets needed**
 
 | Asset Type | Total Count | Completed |
 |------------|-------------|-----------|
-| **Screenshots/Photos** | ~51 | 0 |
+| **Screenshots/Photos** | ~51 | 3 |
 | **Icons** | 6 | ✅ 6 |
 | **Customer/Company Logos** | ~16 | 10 |
 | **Review Source Logos** | 2 | ✅ 2 |
@@ -168,3 +168,6 @@ Last updated: January 14, 2026
 
 - [x] Homepage Trust Bar - 5 customer logos (Foothills, Grizzly, HCRS, Iron Resources, Short Track)
 - [x] Trial Page - 5 customer logos (same set)
+- [x] Work Order Section screenshot (`Work orders.png`)
+- [x] Scheduling Section screenshot (`Locations & Select Shop Location.png`)
+- [x] Reporting Section screenshot (`payments_home.webp`)

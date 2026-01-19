@@ -14,9 +14,9 @@
                 </p>
             </div>
 
-            <!-- Screenshot Placeholder -->
-            <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                <span class="text-white/40">Screenshot Placeholder</span>
+            <!-- Screenshot -->
+            <div class="rounded-xl overflow-hidden">
+                <img src="{{ asset('images/screenshots/Work orders.png') }}" alt="ShopView Work Orders Interface" class="w-full h-auto rounded-xl">
             </div>
         </div>
     </div>

@@ -14,9 +14,9 @@
                 </p>
             </div>
 
-            <!-- Screenshot Placeholder -->
-            <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                <span class="text-white/40">Screenshot Placeholder</span>
+            <!-- Screenshot -->
+            <div class="aspect-video rounded-xl overflow-hidden">
+                <img src="{{ asset('images/screenshots/payments_home.webp') }}" alt="ShopView Reporting and Analytics" class="w-full h-full object-contain">
             </div>
         </div>
     </div>

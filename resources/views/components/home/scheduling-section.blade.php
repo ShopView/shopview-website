@@ -1,9 +1,9 @@
 <section class="py-20 bg-black">
     <div class="container">
         <div class="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-            <!-- Screenshot Placeholder -->
-            <div class="order-2 lg:order-1 aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                <span class="text-white/40">Screenshot Placeholder</span>
+            <!-- Screenshot -->
+            <div class="order-2 lg:order-1 aspect-video rounded-xl overflow-hidden">
+                <img src="{{ asset('images/screenshots/Locations & Select Shop Location.png') }}" alt="ShopView Scheduling and Locations" class="w-full h-full object-contain">
             </div>
 
             <!-- Content -->

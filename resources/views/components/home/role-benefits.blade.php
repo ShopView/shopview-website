@@ -88,7 +88,7 @@ $roles = [
                 @endforeach
             </div>
 
-            <!-- Image Placeholder -->
+            <!-- Screenshot Placeholder -->
             <div class="aspect-[4/3] bg-white/5 border border-white/20 rounded-xl flex items-center justify-center sticky top-24">
                 <span class="text-white/40">Screenshot Placeholder</span>
             </div>
