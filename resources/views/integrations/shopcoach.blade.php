@@ -145,9 +145,9 @@
                             </div>
                         </div>
 
-                        <!-- Image Placeholder -->
-                        <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                            <span class="text-white/40">ShopCoach AI Screenshot</span>
+                        <!-- Screenshot -->
+                        <div class="rounded-xl overflow-hidden">
+                            <img src="{{ asset('images/screenshots/ShopCoach New Part Request & Select Shop Location.png') }}" alt="ShopCoach AI Interface" class="w-full h-auto rounded-xl">
                         </div>
                     </div>
                 </div>
