@@ -36,7 +36,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Target Local Fleets</h3>
@@ -46,7 +46,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Learn How to Sell</h3>
@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Grow What You've Got</h3>
@@ -81,7 +81,7 @@
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Local Prospect Lists</h3>
@@ -91,7 +91,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Email, SMS & Call Scripts</h3>
@@ -101,7 +101,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">12-Month Strategic Plan</h3>
@@ -111,7 +111,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Sales Coaching & Roleplay</h3>
@@ -121,7 +121,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Account Retention Playbook</h3>
@@ -131,7 +131,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">ShopView Integration</h3>
@@ -264,7 +264,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
-                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Tailored for Diesel & Fleet</h3>
@@ -274,7 +274,7 @@
                         </div>
 
                         <div class="text-center">
-                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Integrated with Your Workflow</h3>
@@ -284,7 +284,7 @@
                         </div>
 
                         <div class="text-center">
-                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Sales Coaching Included</h3>

@@ -32,7 +32,7 @@
                             <div class="p-6">
                                 <!-- Company Logo Placeholder -->
                                 <div class="flex items-center gap-3 mb-4">
-                                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+                                    <div class="w-10 h-10 bg-white/10 flex items-center justify-center">
                                         <span class="text-white/40 text-xs">Logo</span>
                                     </div>
                                     <div>

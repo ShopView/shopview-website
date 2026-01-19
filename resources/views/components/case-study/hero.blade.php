@@ -22,7 +22,7 @@
             <!-- Company Badge -->
             <div class="flex items-center gap-4 mb-6">
                 <!-- Logo Placeholder -->
-                <div class="w-16 h-16 bg-white/10 rounded-lg flex items-center justify-center">
+                <div class="w-16 h-16 bg-white/10 flex items-center justify-center">
                     <span class="text-white/40 text-xs">Logo</span>
                 </div>
                 <div>

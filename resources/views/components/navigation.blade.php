@@ -74,7 +74,7 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($runTheShopLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                    <div class="w-10 h-10 bg-white/10 flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
                                                         @if(!empty($link['icon']))
                                                             <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-7 h-7 object-contain">
                                                         @else
@@ -98,7 +98,7 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($customerExperienceLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                    <div class="w-10 h-10 bg-white/10 flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
                                                         @if(!empty($link['icon']))
                                                             <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-7 h-7 object-contain">
                                                         @else
@@ -130,7 +130,7 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($growthServicesLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                    <div class="w-10 h-10 bg-white/10 flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
                                                         @if(!empty($link['icon']))
                                                             <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-7 h-7 object-contain">
                                                         @else
@@ -159,7 +159,7 @@ $solutionsLinks = [
                                         <div class="space-y-1">
                                             @foreach($integrationsLinks as $link)
                                                 <a href="{{ $link['href'] }}" class="flex items-center gap-3 p-2 rounded-lg hover:bg-white/5 transition-colors group/item">
-                                                    <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                                    <div class="w-10 h-10 bg-white/10 flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
                                                         @if(!empty($link['icon']))
                                                             <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-7 h-7 object-contain">
                                                         @else
@@ -196,7 +196,7 @@ $solutionsLinks = [
                                 @foreach($solutionsLinks as $link)
                                     <a href="{{ $link['href'] }}" class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/5 transition-colors group/item">
                                         <!-- Icon -->
-                                        <div class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
+                                        <div class="w-10 h-10 bg-white/10 flex items-center justify-center flex-shrink-0 group-hover/item:bg-primary-500/20 transition-colors overflow-hidden">
                                             @if(!empty($link['icon']))
                                                 <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-8 h-8 object-contain">
                                             @else

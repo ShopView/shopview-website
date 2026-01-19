@@ -14,7 +14,7 @@
 
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="text-center">
-                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <span class="text-2xl font-bold text-primary-400">1</span>
                     </div>
                     <h3 class="text-lg font-semibold mb-2">Build a Work Order in Seconds</h3>
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <span class="text-2xl font-bold text-primary-400">2</span>
                     </div>
                     <h3 class="text-lg font-semibold mb-2">Add Parts and Track Inventory in Real Time</h3>
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <span class="text-2xl font-bold text-primary-400">3</span>
                     </div>
                     <h3 class="text-lg font-semibold mb-2">Convert Estimates to Invoices Instantly</h3>

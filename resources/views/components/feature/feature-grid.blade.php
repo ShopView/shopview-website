@@ -15,8 +15,8 @@
             @foreach($features as $feature)
                 <div class="bg-white/5 border border-white/10 rounded-xl p-6 hover:bg-white/10 hover:border-primary-500/50 transition-all">
                     <!-- Icon Placeholder -->
-                    <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
-                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="w-10 h-10 flex items-center justify-center mb-4">
+                        <svg class="w-8 h-8 text-[#247CFF]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                     </div>

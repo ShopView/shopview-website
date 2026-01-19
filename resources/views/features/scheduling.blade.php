@@ -36,7 +36,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Real-Time Calendar</h3>
@@ -46,7 +46,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Job Assignment Made Easy</h3>
@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Live Updates Across Devices</h3>
@@ -84,7 +84,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Smart Job Overlap Protection</h3>
@@ -94,7 +94,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Track Status at a Glance</h3>
@@ -104,7 +104,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Custom View Options</h3>
@@ -132,7 +132,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Manage Load Distribution</h3>
@@ -142,7 +142,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Build Technician Schedules</h3>
@@ -152,7 +152,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: #247CFF;">
+                            <div class="w-10 h-10 flex items-center justify-center mb-4">
                                 <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Reduce Idle Time</h3>
@@ -250,7 +250,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
-                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
@@ -260,7 +260,7 @@
                         </div>
 
                         <div class="text-center">
-                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
@@ -270,7 +270,7 @@
                         </div>
 
                         <div class="text-center">
-                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4" style="background-color: #247CFF;">
+                            <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
                                 <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>
