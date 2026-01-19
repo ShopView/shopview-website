@@ -100,7 +100,7 @@
                 <div class="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
                     <!-- Screenshot -->
                     <div class="rounded-xl overflow-hidden order-2 lg:order-1">
-                        <img src="{{ asset('images/screenshots/Work orders & Track Time.png') }}" alt="ShopView Collaborative Workflow" class="w-full h-auto rounded-xl">
+                        <img src="{{ asset('images/screenshots/Work Order Home.png') }}" alt="ShopView Collaborative Workflow" class="w-full h-auto rounded-xl">
                     </div>
 
                     <div class="order-1 lg:order-2">
@@ -191,7 +191,7 @@
 
                     <!-- Screenshot -->
                     <div class="rounded-xl overflow-hidden">
-                        <img src="{{ asset('images/screenshots/Work orders_v2.png') }}" alt="ShopView Work Order to Invoice" class="w-full h-auto rounded-xl">
+                        <img src="{{ asset('images/screenshots/Work Order Home.png') }}" alt="ShopView Work Order to Invoice" class="w-full h-auto rounded-xl">
                     </div>
                 </div>
             </div>
