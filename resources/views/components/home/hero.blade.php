@@ -1,11 +1,15 @@
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <!-- Background Image with Gradient Overlay -->
+    <!-- Background Video with Gradient Overlay -->
     <div class="absolute inset-0 z-0">
-        <img
-            src="/images/Homepage1.jpg"
-            alt="Heavy duty repair shop"
+        <video
+            autoplay
+            loop
+            muted
+            playsinline
             class="w-full h-full object-cover"
-        />
+        >
+            <source src="/videos/foothills-hero-compressed.mp4" type="video/mp4">
+        </video>
         <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"></div>
     </div>
 
