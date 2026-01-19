@@ -1,6 +1,6 @@
 @props(['competitor'])
 
-<section class="py-20 bg-zinc-900/50">
+<section class="py-20 bg-[#1a1d24]">
     <div class="container">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">

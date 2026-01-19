@@ -1,6 +1,6 @@
 @props(['stats'])
 
-<section class="py-16 bg-zinc-900/50">
+<section class="py-16 bg-[#1a1d24]">
     <div class="container">
         <div class="max-w-5xl mx-auto">
             <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">

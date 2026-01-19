@@ -69,7 +69,7 @@ $footerLinks = [
 ];
 @endphp
 
-<footer class="bg-black border-t border-white/10 pt-16 pb-8">
+<footer class="bg-[#12161b] border-t border-white/10 pt-16 pb-8">
     <div class="container">
         <div class="grid grid-cols-1 lg:grid-cols-6 gap-8 mb-12">
             <!-- Logo and description -->

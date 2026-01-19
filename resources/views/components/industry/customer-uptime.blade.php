@@ -1,6 +1,6 @@
 @props(['industry'])
 
-<section class="py-20 bg-zinc-900/50">
+<section class="py-20 bg-[#1a1d24]">
     <div class="container">
         <div class="max-w-6xl mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 items-center">

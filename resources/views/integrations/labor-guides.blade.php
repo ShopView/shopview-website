@@ -67,7 +67,7 @@
         </section>
 
         <!-- Solution Section -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="max-w-6xl mx-auto">
                     <div class="text-center mb-12">
@@ -159,7 +159,7 @@
         </section>
 
         <!-- Key Benefits Section -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="max-w-6xl mx-auto">
                     <div class="text-center mb-12">
@@ -264,7 +264,7 @@
         </section>
 
         <!-- Case Study Section -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="max-w-4xl mx-auto">
                     <div class="bg-white/5 border border-white/10 rounded-xl p-8 md:p-12">
@@ -320,7 +320,7 @@
         </section>
 
         <!-- Related Features Section -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="max-w-6xl mx-auto">
                     <div class="text-center mb-12">

@@ -1,6 +1,6 @@
 @props(['title', 'sections'])
 
-<section class="guide-section py-20 bg-zinc-900/30">
+<section class="guide-section py-20 bg-[#1a1d24]/80">
     <div class="container">
         <div class="guide-layout">
             <!-- Sidebar -->

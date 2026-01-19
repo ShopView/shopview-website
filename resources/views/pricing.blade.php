@@ -141,7 +141,7 @@
         </section>
 
         <!-- What's Included Section -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="text-center max-w-4xl mx-auto mb-16">
                     <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
@@ -303,7 +303,7 @@
         </section>
 
         <!-- More Reviews Section -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="text-center max-w-3xl mx-auto mb-16">
                     <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
@@ -409,7 +409,7 @@
         </section>
 
         <!-- Why Choose ShopView Section -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="max-w-4xl mx-auto">
                     <div class="text-center mb-16">

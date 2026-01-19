@@ -1,4 +1,4 @@
-<section class="py-20 bg-black">
+<section class="py-20 bg-[#12161b]">
     <div class="container">
         <div class="max-w-4xl mx-auto space-y-8">
             <p class="text-lg md:text-xl text-white/80 leading-relaxed">

@@ -1,6 +1,6 @@
 @props(['quote'])
 
-<section class="py-16 bg-zinc-900/50">
+<section class="py-16 bg-[#1a1d24]">
     <div class="container">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Quote Icon -->

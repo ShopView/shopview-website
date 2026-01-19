@@ -41,7 +41,7 @@ $solutionsLinks = [
 ];
 @endphp
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-white/10">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-[#12161b]/90 backdrop-blur-md border-b border-white/10">
     <div class="container">
         <div class="flex items-center justify-between h-20">
             <!-- Logo -->
@@ -64,7 +64,7 @@ $solutionsLinks = [
                         </svg>
                     </button>
                     <div class="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                        <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 shadow-2xl w-[720px]">
+                        <div class="bg-[#1a1d24] border border-white/10 rounded-xl p-6 shadow-2xl w-[720px]">
                             <div class="grid grid-cols-2 gap-6">
                                 <!-- Left Column -->
                                 <div>
@@ -191,7 +191,7 @@ $solutionsLinks = [
                         </svg>
                     </button>
                     <div class="absolute top-full left-1/2 -translate-x-1/2 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                        <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 shadow-2xl w-[700px]">
+                        <div class="bg-[#1a1d24] border border-white/10 rounded-xl p-6 shadow-2xl w-[700px]">
                             <div class="grid grid-cols-2 gap-2">
                                 @foreach($solutionsLinks as $link)
                                     <a href="{{ $link['href'] }}" class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/5 transition-colors group/item">
@@ -255,7 +255,7 @@ $solutionsLinks = [
     </div>
 
     <!-- Mobile Navigation -->
-    <div id="mobile-menu" class="lg:hidden hidden bg-black/95 backdrop-blur-md border-t border-white/10 max-h-[80vh] overflow-y-auto">
+    <div id="mobile-menu" class="lg:hidden hidden bg-[#12161b]/95 backdrop-blur-md border-t border-white/10 max-h-[80vh] overflow-y-auto">
         <div class="container py-6">
             <!-- Product Accordion -->
             <div class="border-b border-white/10 pb-4 mb-4">

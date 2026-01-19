@@ -1,7 +1,7 @@
 @props(['videoId'])
 
 @if($videoId)
-<section class="py-16 bg-zinc-900/50">
+<section class="py-16 bg-[#1a1d24]">
     <div class="container">
         <div class="max-w-4xl mx-auto">
             <div class="aspect-video rounded-xl overflow-hidden border border-white/10">

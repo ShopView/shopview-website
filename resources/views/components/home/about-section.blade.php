@@ -1,4 +1,4 @@
-<section class="py-20 bg-zinc-900/50">
+<section class="py-20 bg-[#1a1d24]">
     <div class="container">
         <div class="max-w-4xl mx-auto text-center">
             <p class="text-lg md:text-xl text-white/80 leading-relaxed mb-8">

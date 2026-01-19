@@ -1,4 +1,4 @@
-<section class="py-20 bg-black">
+<section class="py-20 bg-[#12161b]">
     <div class="container">
         <div class="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <!-- Screenshot -->

@@ -103,7 +103,7 @@
         </section>
 
         <!-- Customer Experience -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="max-w-6xl mx-auto">
                     <div class="mb-12">
@@ -206,7 +206,7 @@
         </section>
 
         <!-- Integrations -->
-        <section class="py-20 bg-zinc-900/50">
+        <section class="py-20 bg-[#1a1d24]">
             <div class="container">
                 <div class="max-w-6xl mx-auto">
                     <div class="mb-12">

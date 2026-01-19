@@ -43,7 +43,7 @@ $testimonials = [
 ];
 @endphp
 
-<section class="py-20 bg-zinc-900/50">
+<section class="py-20 bg-[#1a1d24]">
     <div class="container">
         <div class="text-center mb-12">
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
