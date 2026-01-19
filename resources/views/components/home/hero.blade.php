@@ -8,7 +8,7 @@
             playsinline
             class="w-full h-full object-cover"
         >
-            <source src="/videos/foothills-hero-compressed.mp4" type="video/mp4">
+            <source src="/videos/foothills-hero-slow.mp4" type="video/mp4">
         </video>
         <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"></div>
     </div>
@@ -16,11 +16,11 @@
     <!-- Content -->
     <div class="container relative z-10 text-center py-20">
         <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 max-w-5xl mx-auto">
-            Run a heavy-duty shop your customers rave about (and your techs actually enjoy working in)
+            Shop Management Software for Heavy Duty Truck & Trailer Repair Shops
         </h1>
 
         <p class="text-lg md:text-xl text-white/80 mb-8 max-w-3xl mx-auto">
-            Deliver faster turnarounds, cleaner communication, and a polished customer experience - without the paperwork or growing pains.
+            Capture more billable hours, eliminate paperwork chaos and get paid faster. Built by Shop Owners, for Shop Owners.
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
