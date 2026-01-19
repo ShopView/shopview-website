@@ -16,7 +16,7 @@
     <!-- Content -->
     <div class="container relative z-10 text-center py-20">
         <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 max-w-5xl mx-auto">
-            Shop Management Software for Premium Heavy Duty Shops
+            Shop Management Software for Heavy Duty Shops
         </h1>
 
         <p class="text-lg md:text-xl text-white/80 mb-8 max-w-3xl mx-auto">
