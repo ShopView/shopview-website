@@ -17,9 +17,13 @@
                 </p>
             </div>
 
-            <!-- Screenshot Placeholder -->
-            <div class="aspect-video bg-white/5 border border-white/20 rounded-xl flex items-center justify-center">
-                <span class="text-white/40">Screenshot Placeholder</span>
+            <!-- Founders Photo -->
+            <div class="rounded-xl overflow-hidden">
+                <img 
+                    src="{{ asset('images/pictures/IMG_20251204_095925.jpg') }}" 
+                    alt="ShopView Founders" 
+                    class="w-full h-auto rounded-xl"
+                >
             </div>
         </div>
     </div>

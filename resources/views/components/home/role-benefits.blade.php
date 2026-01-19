@@ -6,7 +6,6 @@ $roles = [
             'Real-time visibility into shop performance',
             'Track profitability by job, tech, and customer',
             'Make data-driven decisions',
-            'Reclaim your nights and weekends',
         ],
     ],
     [
@@ -15,7 +14,6 @@ $roles = [
             'Assign jobs with confidence',
             'Monitor technician workload at a glance',
             'Reduce scheduling conflicts',
-            'Keep customers informed automatically',
         ],
     ],
     [
@@ -24,7 +22,6 @@ $roles = [
             'Focus on repairs, not paperwork',
             'Easy time tracking and job logging',
             'Access job history instantly',
-            'Switch between tasks seamlessly',
         ],
     ],
     [
@@ -33,7 +30,6 @@ $roles = [
             'Track inventory in real-time',
             'Automate reorder points',
             'Manage multiple vendors easily',
-            'Reduce parts delays',
         ],
     ],
     [
@@ -42,7 +38,6 @@ $roles = [
             'Invoice in seconds, not minutes',
             'Streamlined billing workflows',
             'Easy payroll time tracking',
-            'Professional customer communications',
         ],
     ],
 ];
@@ -66,11 +61,11 @@ $roles = [
                             data-index="{{ $index }}"
                         >
                             <span class="text-lg font-semibold" style="color: #247CFF;">{{ $role['title'] }}</span>
-                            <svg class="role-accordion-icon w-5 h-5 transition-transform duration-300 {{ $index === 0 ? 'rotate-180' : '' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="role-accordion-icon w-5 h-5 transition-transform duration-300 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <div class="role-accordion-content {{ $index === 0 ? '' : 'hidden' }}" data-index="{{ $index }}">
+                        <div class="role-accordion-content" data-index="{{ $index }}">
                             <div class="p-5 pt-0 bg-white/5">
                                 <ul class="space-y-3">
                                     @foreach($role['benefits'] as $benefit)
@@ -88,9 +83,13 @@ $roles = [
                 @endforeach
             </div>
 
-            <!-- Screenshot Placeholder -->
-            <div class="aspect-[4/3] bg-white/5 border border-white/20 rounded-xl flex items-center justify-center sticky top-24">
-                <span class="text-white/40">Screenshot Placeholder</span>
+            <!-- Service Manager Image -->
+            <div class="rounded-xl overflow-hidden sticky top-24">
+                <img 
+                    src="{{ asset('images/pictures/Service Manager Vertical.jpg') }}" 
+                    alt="Service Manager using ShopView" 
+                    class="w-full h-auto rounded-xl"
+                >
             </div>
         </div>
     </div>
@@ -105,17 +104,10 @@ $roles = [
                 const index = button.dataset.index;
                 const content = document.querySelector(`.role-accordion-content[data-index="${index}"]`);
                 const icon = button.querySelector('.role-accordion-icon');
-                const isOpen = !content.classList.contains('hidden');
-
-                // Close all
-                document.querySelectorAll('.role-accordion-content').forEach(c => c.classList.add('hidden'));
-                document.querySelectorAll('.role-accordion-icon').forEach(i => i.classList.remove('rotate-180'));
-
-                // Open clicked if it was closed
-                if (!isOpen) {
-                    content.classList.remove('hidden');
-                    icon.classList.add('rotate-180');
-                }
+                
+                // Toggle the clicked item
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
             });
         });
     });

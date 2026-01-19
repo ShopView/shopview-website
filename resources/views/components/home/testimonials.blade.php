@@ -2,23 +2,15 @@
 $testimonials = [
     [
         'title' => 'Excellent Software, Amazing Customer Support',
-        'quote' => "ShopView allows us to focus on getting the job done. As a technician, I love that I have the freedom to build jobs and switch between tasks without needing help from admin. It saves me time, makes my workflow smoother, and has really boosted our productivity in the shop.",
+        'quote' => "ShopView allows us to focus on getting the job done. As a technician, I love that I have the freedom to build jobs and switch between tasks without needing help from admin.",
         'author' => 'Heather F.',
         'role' => 'Administrator',
         'rating' => 5,
         'source' => 'g2',
     ],
     [
-        'title' => 'Automotive & HD shop management software',
-        'quote' => "I find ShopView easy to navigate through work orders. From setting up work orders to adding parts, managing inventory with the ability to cycle count to keep inventory up to date, and managing tech times and payroll timesheets makes tracking times for payroll a breeze.",
-        'author' => 'Kerri W.',
-        'role' => 'Parts Specialist',
-        'rating' => 5,
-        'source' => 'capterra',
-    ],
-    [
         'title' => 'ShopView is a game-changing program.',
-        'quote' => "ShopView is a game-changing program. Everything is so fast and user-friendly. I can get to almost anything within two clicks. Their support team is amazing; they respond quickly and genuinely care about helping. I also love that they listen to feedback and keep improving the software.",
+        'quote' => "Everything is so fast and user-friendly. I can get to almost anything within two clicks. Their support team is amazing; they respond quickly and genuinely care about helping.",
         'author' => 'Taylor S.',
         'role' => 'General Manager',
         'rating' => 5,
@@ -26,17 +18,9 @@ $testimonials = [
     ],
     [
         'title' => 'Hands down the best platform for Fleets!',
-        'quote' => "The software is easy to set up! It's also intuitive making it easy to train technicians. Customer support is by far the best I have ever dealt with. Fast replies and go above and beyond to help you solve your problem.",
+        'quote' => "The software is easy to set up! It's also intuitive making it easy to train technicians. Customer support is by far the best I have ever dealt with.",
         'author' => 'Brian W.',
         'role' => 'Fleet Coordinator',
-        'rating' => 5,
-        'source' => 'g2',
-    ],
-    [
-        'title' => 'Finally, a system that lets technicians focus on the work',
-        'quote' => "The greatest appreciation that I have for ShopView stems from its modern aesthetic and curb appeal. Unlike other software that I have utilized in the past, there is not a hodgepodge of unnecessary information or gimmicky hyperlinks to lead you astray.",
-        'author' => 'Hudson P.',
-        'role' => 'Technician',
         'rating' => 5,
         'source' => 'g2',
     ],
@@ -51,102 +35,56 @@ $testimonials = [
             </h2>
         </div>
 
-        <!-- Carousel Container -->
-        <div class="relative max-w-4xl mx-auto">
-            <!-- Testimonials Slider -->
-            <div id="testimonials-carousel" class="overflow-hidden">
-                <div id="testimonials-track" class="flex transition-transform duration-500 ease-in-out">
-                    @foreach($testimonials as $index => $testimonial)
-                        <div class="w-full flex-shrink-0 px-4">
-                            <div class="card text-center py-8 px-6">
+        <!-- Two Column Layout: Image + Reviews -->
+        <div class="grid lg:grid-cols-2 gap-8 max-w-7xl mx-auto items-center">
+            <!-- Image Column -->
+            <div class="rounded-xl overflow-hidden">
+                <img 
+                    src="{{ asset('images/pictures/Image-Under_Truck.jpg') }}" 
+                    alt="Technician using ShopView on mobile while working under a truck" 
+                    class="w-full h-full object-cover rounded-xl"
+                >
+            </div>
+
+            <!-- Reviews Column -->
+            <div class="flex flex-col gap-5">
+                @foreach($testimonials as $testimonial)
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+                        <div class="flex items-start justify-between gap-4">
+                            <div class="flex-grow">
                                 <!-- Stars -->
-                                <div class="flex justify-center mb-6">
+                                <div class="flex mb-2">
                                     @for($i = 0; $i < $testimonial['rating']; $i++)
-                                        <svg class="w-6 h-6 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                                        <svg class="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20">
                                             <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
                                         </svg>
                                     @endfor
                                 </div>
 
-                                <h3 class="text-xl font-semibold mb-4">{{ $testimonial['title'] }}</h3>
+                                <p class="text-white/80 text-sm italic mb-3">"{{ $testimonial['quote'] }}"</p>
 
-                                <p class="text-white/70 mb-6 text-lg italic">"{{ $testimonial['quote'] }}"</p>
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <p class="font-semibold text-sm">{{ $testimonial['author'] }}</p>
+                                        @if($testimonial['role'])
+                                            <p class="text-white/60 text-xs">{{ $testimonial['role'] }}</p>
+                                        @endif
+                                    </div>
 
-                                <div>
-                                    <p class="font-semibold text-lg">{{ $testimonial['author'] }}</p>
-                                    @if($testimonial['role'])
-                                        <p class="text-white/60">{{ $testimonial['role'] }}</p>
-                                    @endif
-                                </div>
-
-                                <!-- Review Source Logo -->
-                                <div class="mt-6 flex justify-center">
-                                    @if($testimonial['source'] === 'g2')
-                                        <img src="/images/logos/g2-logo-white-black.webp" alt="G2 Review" class="h-8 w-auto object-contain opacity-70">
-                                    @else
-                                        <img src="/images/logos/Capterra - Transparent.png" alt="Capterra Review" class="h-8 w-auto object-contain opacity-70">
-                                    @endif
+                                    <!-- Review Source Logo -->
+                                    <div>
+                                        @if($testimonial['source'] === 'g2')
+                                            <img src="/images/logos/g2-logo-white-black.webp" alt="G2 Review" class="h-5 w-auto object-contain opacity-70">
+                                        @else
+                                            <img src="/images/logos/Capterra - Transparent.png" alt="Capterra Review" class="h-5 w-auto object-contain opacity-70">
+                                        @endif
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    @endforeach
-                </div>
-            </div>
-
-            <!-- Navigation Arrows -->
-            <button id="prev-testimonial" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                </svg>
-            </button>
-            <button id="next-testimonial" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-            </button>
-
-            <!-- Dots -->
-            <div class="flex justify-center gap-2 mt-8">
-                @foreach($testimonials as $index => $testimonial)
-                    <button class="testimonial-dot w-3 h-3 rounded-full {{ $index === 0 ? 'bg-white' : 'bg-white/30' }} transition-colors" data-index="{{ $index }}"></button>
+                    </div>
                 @endforeach
             </div>
         </div>
     </div>
 </section>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const track = document.getElementById('testimonials-track');
-        const dots = document.querySelectorAll('.testimonial-dot');
-        const prevBtn = document.getElementById('prev-testimonial');
-        const nextBtn = document.getElementById('next-testimonial');
-        let currentIndex = 0;
-        const totalSlides = {{ count($testimonials) }};
-
-        function updateCarousel() {
-            track.style.transform = `translateX(-${currentIndex * 100}%)`;
-            dots.forEach((dot, i) => {
-                dot.classList.toggle('bg-white', i === currentIndex);
-                dot.classList.toggle('bg-white/30', i !== currentIndex);
-            });
-        }
-
-        prevBtn.addEventListener('click', () => {
-            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-            updateCarousel();
-        });
-
-        nextBtn.addEventListener('click', () => {
-            currentIndex = (currentIndex + 1) % totalSlides;
-            updateCarousel();
-        });
-
-        dots.forEach(dot => {
-            dot.addEventListener('click', () => {
-                currentIndex = parseInt(dot.dataset.index);
-                updateCarousel();
-            });
-        });
-    });
-</script>
