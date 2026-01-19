@@ -16,7 +16,7 @@
 
             <!-- Screenshot -->
             <div class="rounded-xl overflow-hidden">
-                <img src="{{ asset('images/screenshots/Work orders.png') }}" alt="ShopView Work Orders Interface" class="w-full h-auto rounded-xl">
+                <img src="{{ asset('images/screenshots/Work Order Home.png') }}" alt="ShopView Work Orders Interface" class="w-full h-auto rounded-xl">
             </div>
         </div>
     </div>
