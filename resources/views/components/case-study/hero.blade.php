@@ -1,49 +1,59 @@
 @props(['study'])
 
-<section class="relative min-h-[50vh] flex items-center overflow-hidden">
-    <!-- Background with Gradient -->
+<section class="relative pt-32 pb-16 overflow-hidden">
+    <!-- Background -->
     <div class="absolute inset-0 z-0">
-        <div class="w-full h-full bg-gradient-to-br from-zinc-900 via-zinc-800 to-black"></div>
-        <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/80"></div>
+        <div class="w-full h-full bg-gradient-to-br from-[#0a0c10] via-[#0f1218] to-[#0a0c10]"></div>
     </div>
 
     <!-- Content -->
-    <div class="container relative z-10 py-20">
-        <div class="max-w-4xl">
-            <!-- Breadcrumb -->
-            <nav class="mb-6">
-                <a href="/case-studies" class="text-primary-400 hover:text-primary-300 text-sm">
-                    Case Studies
+    <div class="container relative z-10">
+        <div class="max-w-4xl mx-auto text-center">
+            <!-- Main Headline -->
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                {{ $study['hero']['headline'] }}
+                @if(isset($study['hero']['headlineHighlight']))
+                    <span class="text-[#247CFF]">{{ $study['hero']['headlineHighlight'] }}</span>
+                @endif
+                @if(isset($study['hero']['headlineSuffix']))
+                    {{ $study['hero']['headlineSuffix'] }}
+                @endif
+            </h1>
+
+            <!-- Subheadline -->
+            <p class="text-lg md:text-xl text-white/70 italic mb-8 max-w-3xl mx-auto">
+                {{ $study['hero']['subheadline'] }}
+            </p>
+
+            <!-- Video Player (if exists) -->
+            @if(isset($study['videoId']) && $study['videoId'])
+                <div class="relative aspect-video max-w-3xl mx-auto mb-8 rounded-xl overflow-hidden shadow-2xl border border-white/10">
+                    <iframe 
+                        src="https://www.youtube.com/embed/{{ $study['videoId'] }}" 
+                        class="absolute inset-0 w-full h-full"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            @endif
+
+            <!-- Tagline (if exists) -->
+            @if(isset($study['hero']['tagline']))
+                <p class="text-white/60 italic mb-8">
+                    {{ $study['hero']['tagline'] }}
+                </p>
+            @endif
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/trial" class="inline-flex items-center justify-center px-8 py-4 bg-[#247CFF] text-white font-semibold rounded-lg hover:bg-[#1a5fd1] transition-colors">
+                    Start Free Trial
                 </a>
-                <span class="text-white/40 mx-2">/</span>
-                <span class="text-white/60 text-sm">{{ $study['company'] }}</span>
-            </nav>
-
-            <!-- Company Badge -->
-            <div class="flex items-center gap-4 mb-6">
-                <!-- Logo Placeholder -->
-                <div class="w-16 h-16 bg-white/10 flex items-center justify-center">
-                    <span class="text-white/40 text-xs">Logo</span>
-                </div>
-                <div>
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
-                        {{ $study['company'] }}
-                    </h1>
-                    <p class="text-white/60 mt-1">
-                        {{ $study['industry'] }} &bull; {{ $study['location'] }}
-                    </p>
-                </div>
+                <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-lg hover:bg-white/10 transition-colors">
+                    Talk to Our Team
+                </a>
             </div>
-
-            <!-- Tagline -->
-            <p class="text-xl md:text-2xl text-primary-400 font-medium mb-4">
-                {{ $study['tagline'] }}
-            </p>
-
-            <!-- Summary -->
-            <p class="text-lg text-white/80 max-w-3xl">
-                {{ $study['summary'] }}
-            </p>
         </div>
     </div>
 </section>
