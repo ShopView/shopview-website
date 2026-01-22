@@ -50,15 +50,14 @@
                     @endif
                 </div>
                 
-                <!-- Image Placeholder -->
+                <!-- Image -->
                 <div class="relative">
-                    <div class="aspect-[4/3] bg-gradient-to-br from-[#247CFF]/20 to-[#247CFF]/5 rounded-2xl border border-[#247CFF]/20 flex items-center justify-center">
-                        <div class="text-center text-white/30">
-                            <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                            </svg>
-                            <p class="text-sm">Solution Image</p>
-                        </div>
+                    <div class="aspect-[4/3] rounded-2xl overflow-hidden border border-[#247CFF]/20 shadow-lg shadow-[#247CFF]/10">
+                        <img 
+                            src="{{ $solution['image'] ?? '/images/pictures/Service Advisor.jpg' }}" 
+                            alt="ShopView solution in action" 
+                            class="w-full h-full object-cover"
+                        >
                     </div>
                 </div>
             </div>

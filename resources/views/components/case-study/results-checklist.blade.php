@@ -4,15 +4,14 @@
     <div class="container">
         <div class="max-w-6xl mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <!-- Image Placeholder -->
+                <!-- Image -->
                 <div class="relative">
-                    <div class="aspect-[4/3] bg-gradient-to-br from-green-500/20 to-green-500/5 rounded-2xl border border-green-500/20 flex items-center justify-center">
-                        <div class="text-center text-white/30">
-                            <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
-                            <p class="text-sm">Results Image</p>
-                        </div>
+                    <div class="aspect-[4/3] rounded-2xl overflow-hidden border border-green-500/20 shadow-lg shadow-green-500/10">
+                        <img 
+                            src="{{ $resultsChecklist['image'] ?? '/images/pictures/IMG_20251204_095925.jpg' }}" 
+                            alt="Shop team achieving results" 
+                            class="w-full h-full object-cover"
+                        >
                     </div>
                 </div>
                 

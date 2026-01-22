@@ -45,7 +45,7 @@ return [
                 'Heavy duty truck shop <strong>Foothills Group</strong> has four locations across Alberta in Canada, employing more than 100 people across their shops. Since launching in 2017, the company has quickly grown from a small operation out of a backyard garage, into a multimillion-dollar, multi-location heavy duty truck shop market leader.',
                 'Despite Foothill Group\'s rapid growth and outward success, internally service managers struggled with challenges that so many shop owners face: low tech efficiency and hours of lost time each week. The result was lost productivity and stalled revenue growth.',
             ],
-            'image' => '/images/case-studies/foothills-challenge.jpg',
+            'image' => '/images/pictures/Onwer .jpg',
         ],
 
         // Problem Deep Dive
@@ -57,7 +57,7 @@ return [
                 'The technicians were great at their job. There was no doubting that Foothills Group also had exceptional relationships with their customers. The problem wasn\'t their people — it was the shop management systems they had to manage their people and processes.',
                 'The shop management software that Foothills Group was using at the time was laden with slow load times, poor navigation, and a confusing interface. It was this cumbersome combination that was causing lost technician efficiency.',
             ],
-            'image' => '/images/case-studies/foothills-problem.jpg',
+            'image' => '/images/pictures/Service Manager Vertical.jpg',
         ],
 
         // Familiar Tale (common pain points)
@@ -81,7 +81,7 @@ return [
                 'For Foothills Group, it was as if these systems had been built by people who had never run a truck shop. Their intuition was right. They hadn\'t. After years of dissatisfaction with other shop management systems, Foothills Group turned to ShopView.',
                 'Right from the outset, ShopView made switching easy thanks to fast, secure data migration and fast onboarding. With ShopView in place, technician time at service desks decreased within weeks. Service managers attributed this to the fact that ShopView had no unnecessary clicks or slow load times, as was typical with previous shop management systems they had used. Plus faster work order build outs meant techs could spend more time on the floor.',
             ],
-            'image' => '/images/case-studies/foothills-solution.jpg',
+            'image' => '/images/pictures/Service Advisor.jpg',
             'quote' => [
                 'text' => 'We rolled ShopView out in one shop and the results were a staggering 25% increase in billing within just a few months.',
                 'author' => 'Chris Ward',
@@ -97,7 +97,7 @@ return [
                 'The potential was always there. But existing management systems had always been the barrier to unlocking growth at scale for Foothills Group.',
                 'In ShopView, they found the perfect partner to unlock growth by getting service managers and technicians out of the day-to-day weeds of running their shops by simplifying all your time-consuming admin, management and billing.',
             ],
-            'image' => '/images/case-studies/foothills-results.jpg',
+            'image' => '/images/pictures/Image-Under_Truck.jpg',
         ],
 
         // Favorite Features
@@ -193,7 +193,7 @@ return [
             'contentAfter' => [
                 'Important processes like <strong>invoicing, technician time tracking, and inventory management</strong> were manual, clunky, and error-prone.',
             ],
-            'image' => '/images/case-studies/haylock-challenge.jpg',
+            'image' => '/images/pictures/Onwer .jpg',
         ],
 
         // Problem Deep Dive
@@ -209,7 +209,7 @@ return [
                 'author' => 'Paul Terrio',
                 'company' => 'Haylock Truck and Trailer',
             ],
-            'image' => '/images/case-studies/haylock-problem.jpg',
+            'image' => '/images/pictures/Service Advisor.jpg',
         ],
 
         // Familiar Tale
@@ -241,7 +241,7 @@ return [
             'contentAfter' => [
                 'From technician time tracking to service scheduling to invoicing and inventory, every part of the business got faster, clearer, and easier to manage. "I don\'t have just one favorite feature. We identified 52 processes in our shop that ShopView has improved."',
             ],
-            'image' => '/images/case-studies/haylock-solution.jpg',
+            'image' => '/images/pictures/Service Manager Vertical.jpg',
             'quote' => [
                 'text' => 'We used to lose hours every day just keeping track of what was going on. Now we\'ve got a handle on it — all of it.',
                 'author' => 'Paul Terrio',
@@ -262,7 +262,7 @@ return [
                 'Simplify job scheduling and technician oversight',
             ],
             'outro' => 'And perhaps most importantly, the team now has <strong>complete visibility</strong> into how the shop is operating at any moment.',
-            'image' => '/images/case-studies/haylock-results.jpg',
+            'image' => '/images/pictures/IMG_20251204_095925.jpg',
         ],
 
         // Favorite Features
@@ -348,7 +348,7 @@ return [
                 'The team relied on <strong>Fullbay, QuickBooks,</strong> and even <strong>pen & paper</strong> to manage their day-to-day operations. These disconnected systems created slow, frustrating processes that led to <strong>lost billable time, poor scheduling, and frustrated staff.</strong>',
                 'Despite their capable technicians and solid customer relationships, the shop was wasting hours on admin and struggling to track jobs efficiently. Like many others, they found themselves <strong>held back by the very systems that were supposed to support them.</strong>',
             ],
-            'image' => '/images/case-studies/ss-repair-challenge.jpg',
+            'image' => '/images/pictures/Onwer .jpg',
         ],
 
         // Problem Deep Dive
@@ -363,7 +363,7 @@ return [
                 'author' => 'Sam Stuart',
                 'company' => 'SS Repair Ltd.',
             ],
-            'image' => '/images/case-studies/ss-repair-problem.jpg',
+            'image' => '/images/pictures/Service Manager Vertical.jpg',
         ],
 
         // Familiar Tale
@@ -389,7 +389,7 @@ return [
                 'Work orders were faster. Invoicing was seamless. Admin headaches disappeared.',
                 '"We had a new guy in today, within 3 minutes, he was ready to go. That\'s how easy this system is."',
             ],
-            'image' => '/images/case-studies/ss-repair-solution.jpg',
+            'image' => '/images/pictures/Service Advisor.jpg',
             'quote' => [
                 'text' => 'With ShopView, the invoicing is fast, the tracking is accurate, and the time saved is massive. It\'s made a real difference — not just in productivity, but in morale too.',
                 'author' => 'Sam Stuart',
@@ -408,7 +408,7 @@ return [
                 'Faster payments and fewer billing delays',
                 'Better customer experience and shop reputation',
             ],
-            'image' => '/images/case-studies/ss-repair-results.jpg',
+            'image' => '/images/pictures/Image-Under_Truck.jpg',
         ],
 
         // Favorite Features

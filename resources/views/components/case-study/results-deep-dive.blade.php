@@ -4,15 +4,14 @@
     <div class="container">
         <div class="max-w-6xl mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <!-- Image Placeholder -->
+                <!-- Image -->
                 <div class="relative">
-                    <div class="aspect-[4/3] bg-gradient-to-br from-green-500/20 to-green-500/5 rounded-2xl border border-green-500/20 flex items-center justify-center">
-                        <div class="text-center text-white/30">
-                            <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
-                            </svg>
-                            <p class="text-sm">Results Image</p>
-                        </div>
+                    <div class="aspect-[4/3] rounded-2xl overflow-hidden border border-green-500/20 shadow-lg shadow-green-500/10">
+                        <img 
+                            src="{{ $resultsDeepDive['image'] ?? '/images/pictures/Image-Under_Truck.jpg' }}" 
+                            alt="Technician working efficiently" 
+                            class="w-full h-full object-cover"
+                        >
                     </div>
                 </div>
                 
