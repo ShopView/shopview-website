@@ -9,7 +9,7 @@
             class="w-full h-full object-cover"
         >
         <!-- Dark Overlay -->
-        <div class="absolute inset-0 bg-gradient-to-b from-[#0a0c10]/90 via-[#0a0c10]/85 to-[#0a0c10]"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0a0c10]/75 via-[#0a0c10]/70 to-[#0a0c10]/90"></div>
     </div>
     
     <!-- Content -->
