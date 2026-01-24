@@ -1,16 +1,39 @@
+@php
+    $heroImages = config('hero-images.horizontal', []);
+    if (!$heroImages) {
+        $fallbackPath = base_path('config/hero-images.php');
+        if (is_file($fallbackPath)) {
+            $fallbackConfig = require $fallbackPath;
+            $heroImages = $fallbackConfig['horizontal'] ?? [];
+        }
+    }
+    $heroImage = $heroImages ? $heroImages[(int) sprintf('%u', crc32('home')) % count($heroImages)] : null;
+    $heroImageUrl = $heroImage
+        ? asset(str_replace([' ', '(', ')'], ['%20', '%28', '%29'], ltrim($heroImage, '/')))
+        : null;
+@endphp
+
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
     <!-- Background Video with Gradient Overlay -->
     <div class="absolute inset-0 z-0">
+        @if($heroImageUrl)
+            <img
+                src="{{ $heroImageUrl }}"
+                alt=""
+                class="w-full h-full object-cover"
+            >
+        @endif
         <video
             autoplay
             loop
             muted
             playsinline
-            class="w-full h-full object-cover"
+            poster="{{ $heroImageUrl }}"
+            class="absolute inset-0 w-full h-full object-cover"
         >
             <source src="/videos/foothills-hero-slow.mp4" type="video/mp4">
         </video>
-        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0a0c10]/75 via-[#0a0c10]/70 to-[#0a0c10]/90"></div>
     </div>
 
     <!-- Content -->

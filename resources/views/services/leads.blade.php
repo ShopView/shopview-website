@@ -4,22 +4,13 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Lead Generation + Sales Coaching for Diesel Repair Shops
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        Real leads. Real playbooks. Real growth. You don't need fluff. You need more work from the right customers - fleets, municipalities, contractors. ShopView delivers local commercial leads plus a full sales training system to help you win them and grow smarter over time.
-                    </p>
-                    <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                        Start Free Trial
-                    </a>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="services/leads"
+            title="Lead Generation + Sales Coaching for Diesel Repair Shops"
+            description="Real leads. Real playbooks. Real growth. You don't need fluff. You need more work from the right customers - fleets, municipalities, contractors. ShopView delivers local commercial leads plus a full sales training system to help you win them and grow smarter over time."
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+        />
 
         <!-- Growth System Section -->
         <section class="py-20">

@@ -1,9 +1,34 @@
 @props(['study'])
 
+@php
+    $heroImages = config('hero-images.horizontal', []);
+    if (!$heroImages) {
+        $fallbackPath = base_path('config/hero-images.php');
+        if (is_file($fallbackPath)) {
+            $fallbackConfig = require $fallbackPath;
+            $heroImages = $fallbackConfig['horizontal'] ?? [];
+        }
+    }
+    $seed = $study['slug'] ?? $study['company'] ?? 'case-study';
+    $heroImage = $heroImages ? $heroImages[(int) sprintf('%u', crc32($seed)) % count($heroImages)] : null;
+    $heroImageUrl = $heroImage
+        ? asset(str_replace([' ', '(', ')'], ['%20', '%28', '%29'], ltrim($heroImage, '/')))
+        : null;
+@endphp
+
 <section class="relative pt-32 pb-16 overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0 z-0">
-        <div class="w-full h-full bg-gradient-to-br from-[#0a0c10] via-[#0f1218] to-[#0a0c10]"></div>
+        @if($heroImageUrl)
+            <img
+                src="{{ $heroImageUrl }}"
+                alt=""
+                class="w-full h-full object-cover"
+            >
+        @else
+            <div class="w-full h-full bg-gradient-to-br from-[#0a0c10] via-[#0f1218] to-[#0a0c10]"></div>
+        @endif
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0a0c10]/75 via-[#0a0c10]/70 to-[#0a0c10]/90"></div>
     </div>
 
     <!-- Content -->

@@ -4,22 +4,13 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Estimates & Invoicing Software Built for Speed, Accuracy & Heavy-Duty Profit
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        Build accurate estimates and convert them into invoices in seconds. ShopView's repair invoice software is built for heavy-duty truck, diesel, and fleet repair shops - giving you fast, accurate billing with zero missed revenue.
-                    </p>
-                    <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                        Start Free Trial
-                    </a>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="features/estimates-invoices"
+            title="Estimates & Invoicing Software Built for Speed, Accuracy & Heavy-Duty Profit"
+            description="Build accurate estimates and convert them into invoices in seconds. ShopView's repair invoice software is built for heavy-duty truck, diesel, and fleet repair shops - giving you fast, accurate billing with zero missed revenue."
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+        />
 
         <!-- From Estimate to Invoice -->
         <section class="py-20">

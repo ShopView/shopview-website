@@ -1,13 +1,31 @@
 @props(['industry'])
 
+@php
+    $heroImages = config('hero-images.horizontal', []);
+    if (!$heroImages) {
+        $fallbackPath = base_path('config/hero-images.php');
+        if (is_file($fallbackPath)) {
+            $fallbackConfig = require $fallbackPath;
+            $heroImages = $fallbackConfig['horizontal'] ?? [];
+        }
+    }
+    $seed = $industry['slug'] ?? $industry['heroTitle'] ?? 'industry';
+    $heroImage = $heroImages ? $heroImages[(int) sprintf('%u', crc32($seed)) % count($heroImages)] : null;
+    $heroImageUrl = $heroImage
+        ? asset(str_replace([' ', '(', ')'], ['%20', '%28', '%29'], ltrim($heroImage, '/')))
+        : null;
+@endphp
+
 <section class="relative py-32 overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-        <img 
-            src="/images/pictures/Service Advisor.jpg" 
-            alt="" 
-            class="w-full h-full object-cover"
-        >
+        @if($heroImageUrl)
+            <img
+                src="{{ $heroImageUrl }}"
+                alt=""
+                class="w-full h-full object-cover"
+            >
+        @endif
         <!-- Dark Overlay -->
         <div class="absolute inset-0 bg-gradient-to-b from-[#0a0c10]/75 via-[#0a0c10]/70 to-[#0a0c10]/90"></div>
     </div>

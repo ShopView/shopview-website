@@ -4,23 +4,14 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <span class="inline-block px-3 py-1 bg-primary-500/20 text-primary-400 text-sm font-medium rounded-full mb-4">NEW</span>
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Accounting & Bookkeeping Built for Heavy Duty Repair Shops
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        Fully managed accounting and bookkeeping designed for heavy-duty shops. Every invoice, payment, customer, and vendor syncs with QuickBooks - no more manual errors, lost data, or missed close-outs.
-                    </p>
-                    <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                        Start Free Trial
-                    </a>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="services/bookkeeping"
+            title="Accounting & Bookkeeping Built for Heavy Duty Repair Shops"
+            description="Fully managed accounting and bookkeeping designed for heavy-duty shops. Every invoice, payment, customer, and vendor syncs with QuickBooks - no more manual errors, lost data, or missed close-outs."
+            badge="NEW"
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+        />
 
         <!-- Why Shops Struggle Section -->
         <section class="py-20">

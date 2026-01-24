@@ -4,28 +4,16 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <span class="inline-block px-3 py-1 bg-primary-500/20 text-primary-400 text-sm font-medium rounded-full mb-4">NEW</span>
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Integrated Payment Processing for Heavy-Duty Repair Shops
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        ShopPay is the secure, built-in payments platform inside ShopView. From work order to invoice to payment, accept cards, ACH, and fleet billing online while syncing directly to QuickBooks. No extra tools. No double entry.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                            Start Free Trial
-                        </a>
-                        <a href="/demo" class="btn btn-secondary text-lg px-8 py-4">
-                            Book a Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="features/shoppay"
+            title="Integrated Payment Processing for Heavy-Duty Repair Shops"
+            description="ShopPay is the secure, built-in payments platform inside ShopView. From work order to invoice to payment, accept cards, ACH, and fleet billing online while syncing directly to QuickBooks. No extra tools. No double entry."
+            badge="NEW"
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+            secondary-href="/demo"
+            secondary-label="Book a Demo"
+        />
 
         <!-- Accept Payments Section -->
         <section class="py-20">

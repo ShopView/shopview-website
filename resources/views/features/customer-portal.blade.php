@@ -4,28 +4,16 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <span class="inline-block px-3 py-1 bg-primary-500/20 text-primary-400 text-sm font-medium rounded-full mb-4">NEW</span>
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Customer Portal for Heavy-Duty and Fleet Shops
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        Give fleets the transparency they expect. Track units in the shop, submit service requests, and pay invoices online with ShopPay. Simple, secure, and purpose-built for diesel and heavy-duty repair.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                            Start Free Trial
-                        </a>
-                        <a href="/demo" class="btn btn-secondary text-lg px-8 py-4">
-                            Book a Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="features/customer-portal"
+            title="Customer Portal for Heavy-Duty and Fleet Shops"
+            description="Give fleets the transparency they expect. Track units in the shop, submit service requests, and pay invoices online with ShopPay. Simple, secure, and purpose-built for diesel and heavy-duty repair."
+            badge="NEW"
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+            secondary-href="/demo"
+            secondary-label="Book a Demo"
+        />
 
         <!-- Service Request to Payment Section -->
         <section class="py-20">

@@ -4,22 +4,13 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Heavy-Duty Repair Shop Billing Made Simple
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        Connect ShopView to Interstate Billing Service (IBS) and streamline your heavy-duty repair shop billing. Bill fleet accounts, track approvals more efficiently, and move jobs through your diesel repair bays faster, with fewer manual steps and less paperwork slowing you down.
-                    </p>
-                    <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                        Start Free Trial
-                    </a>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="integrations/ibs"
+            title="Heavy-Duty Repair Shop Billing Made Simple"
+            description="Connect ShopView to Interstate Billing Service (IBS) and streamline your heavy-duty repair shop billing. Bill fleet accounts, track approvals more efficiently, and move jobs through your diesel repair bays faster, with fewer manual steps and less paperwork slowing you down."
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+        />
 
         <!-- Fast Accurate Billing Section -->
         <section class="py-20">

@@ -4,22 +4,13 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Heavy-Duty Truck Labor Time Guide, Smarter, Faster with AI
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        Say goodbye to static labor guides and manual lookups. ShopCoach AI delivers VIN-specific labor times and real-time estimates in seconds - all built directly into ShopView.
-                    </p>
-                    <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                        Start Free Trial
-                    </a>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="integrations/labor-guides"
+            title="Heavy-Duty Truck Labor Time Guide, Smarter, Faster with AI"
+            description="Say goodbye to static labor guides and manual lookups. ShopCoach AI delivers VIN-specific labor times and real-time estimates in seconds - all built directly into ShopView."
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+        />
 
         <!-- Problem Section -->
         <section class="py-20">

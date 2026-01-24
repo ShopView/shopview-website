@@ -4,22 +4,13 @@
     <x-navigation />
 
     <main>
-        <!-- Hero Section -->
-        <section class="py-32 bg-gradient-to-b from-zinc-900 to-black">
-            <div class="container">
-                <div class="text-center max-w-4xl mx-auto">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                        Work Orders That Get Jobs Done Faster - Built for Heavy-Duty Repair Shops
-                    </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-8">
-                        Create and manage service work orders in under 2 minutes with ShopView. It's the fastest way to keep your heavy-duty repair shop running smooth, efficient, and profitable - without the stress.
-                    </p>
-                    <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
-                        Start Free Trial
-                    </a>
-                </div>
-            </div>
-        </section>
+        <x-product-hero
+            seed="features/work-orders"
+            title="Work Orders That Get Jobs Done Faster - Built for Heavy-Duty Repair Shops"
+            description="Create and manage service work orders in under 2 minutes with ShopView. It's the fastest way to keep your heavy-duty repair shop running smooth, efficient, and profitable - without the stress."
+            primary-href="/trial"
+            primary-label="Start Free Trial"
+        />
 
         <!-- Key Value Proposition -->
         <section class="py-20">
