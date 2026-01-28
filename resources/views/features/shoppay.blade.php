@@ -31,7 +31,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-credit-card class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Credit Card Payments</h3>
                             <p class="text-white/60">
@@ -41,7 +41,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-wallet class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">ACH Bank Transfers</h3>
                             <p class="text-white/60">
@@ -51,7 +51,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-building-2 class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Fleet Billing</h3>
                             <p class="text-white/60">
@@ -79,7 +79,7 @@
                     <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-dollar-sign class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Clear Per-Transaction Fees</h3>
                             <p class="text-white/60">
@@ -89,7 +89,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-shield-check class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">PCI-Compliant Security</h3>
                             <p class="text-white/60">
@@ -117,7 +117,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-refresh-cw class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Automatic Sync</h3>
                             <p class="text-white/60">
@@ -127,7 +127,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-users class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Customer & Job Mapping</h3>
                             <p class="text-white/60">
@@ -137,7 +137,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-file-check class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Easy Reconciliation</h3>
                             <p class="text-white/60">
@@ -237,7 +237,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
                             <p class="text-white/60 text-sm">
@@ -247,7 +247,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
                             <p class="text-white/60 text-sm">
@@ -257,7 +257,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-headphones class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>
                             <p class="text-white/60 text-sm">

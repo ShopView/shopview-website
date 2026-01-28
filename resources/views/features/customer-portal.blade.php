@@ -31,7 +31,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-eye class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">See Units & History</h3>
                             <p class="text-white/60">
@@ -41,7 +41,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-file-plus class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Submit Requests Online</h3>
                             <p class="text-white/60">
@@ -51,7 +51,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-credit-card class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Review & Pay Invoices</h3>
                             <p class="text-white/60">
@@ -76,7 +76,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-users class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Fleet Managers</h3>
                             <p class="text-white/60">
@@ -86,7 +86,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-calculator class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Accounting Teams</h3>
                             <p class="text-white/60">
@@ -96,7 +96,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-wrench class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Shop Staff</h3>
                             <p class="text-white/60">
@@ -147,7 +147,7 @@
                     <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-globe class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless with Your Website</h3>
                             <p class="text-white/60">
@@ -157,7 +157,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-wallet class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Get Paid Faster with ShopPay</h3>
                             <p class="text-white/60">
@@ -241,7 +241,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
                             <p class="text-white/60 text-sm">
@@ -251,7 +251,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
                             <p class="text-white/60 text-sm">
@@ -261,7 +261,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-headphones class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>
                             <p class="text-white/60 text-sm">

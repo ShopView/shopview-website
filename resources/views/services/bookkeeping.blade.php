@@ -25,8 +25,8 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-red-500/20 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-red-400/40 rounded"></div>
+                            <div class="w-12 h-12 flex items-center justify-center mb-4">
+                                <x-lucide-clock class="w-6 h-6 text-red-400" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Time-Consuming Manual Entry</h3>
                             <p class="text-white/60">
@@ -35,8 +35,8 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-red-500/20 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-red-400/40 rounded"></div>
+                            <div class="w-12 h-12 flex items-center justify-center mb-4">
+                                <x-lucide-x-circle class="w-6 h-6 text-red-400" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Generic Services Don't Get It</h3>
                             <p class="text-white/60">
@@ -45,8 +45,8 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-red-500/20 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-red-400/40 rounded"></div>
+                            <div class="w-12 h-12 flex items-center justify-center mb-4">
+                                <x-lucide-alert-triangle class="w-6 h-6 text-red-400" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Missed Data = Financial Stress</h3>
                             <p class="text-white/60">
@@ -74,7 +74,7 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-file-text class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Fully Managed Accounting</h3>
                             <p class="text-white/60">
@@ -84,7 +84,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-refresh-cw class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">QuickBooks Sync</h3>
                             <p class="text-white/60">
@@ -94,7 +94,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-bar-chart-3 class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Real-Time Financials</h3>
                             <p class="text-white/60">
@@ -104,7 +104,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-check-circle class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Error-Free Closeouts</h3>
                             <p class="text-white/60">
@@ -132,7 +132,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-calendar class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Month-End Made Easy</h3>
                             <p class="text-white/60">
@@ -142,7 +142,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-wrench class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Built for Heavy-Duty Shops</h3>
                             <p class="text-white/60">
@@ -152,7 +152,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-eye class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Real Visibility Into Your Shop</h3>
                             <p class="text-white/60">
@@ -177,7 +177,7 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-clock class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Save Hours Every Week</h3>
                             <p class="text-white/60 text-sm">
@@ -187,7 +187,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-shield-check class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Accuracy You Can Trust</h3>
                             <p class="text-white/60 text-sm">
@@ -197,7 +197,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-dollar-sign class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Financial Confidence</h3>
                             <p class="text-white/60 text-sm">
@@ -207,7 +207,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-wrench class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">More Time to Run Your Shop</h3>
                             <p class="text-white/60 text-sm">

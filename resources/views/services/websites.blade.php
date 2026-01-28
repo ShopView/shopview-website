@@ -25,7 +25,7 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-trending-up class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Rank in Search</h3>
                             <p class="text-white/60">
@@ -35,7 +35,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-users class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Capture Real Leads</h3>
                             <p class="text-white/60">
@@ -45,7 +45,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-smartphone class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Work on Any Device</h3>
                             <p class="text-white/60">
@@ -55,7 +55,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-search class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Easy to Find</h3>
                             <p class="text-white/60">
@@ -65,7 +65,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-zap class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Built for Action</h3>
                             <p class="text-white/60">
@@ -75,7 +75,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-smartphone class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Mobile First</h3>
                             <p class="text-white/60">
@@ -103,7 +103,7 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-user-circle class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Customer Portal Access</h3>
                             <p class="text-white/60">
@@ -113,7 +113,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-tablet class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Mobile & Tablet Ready</h3>
                             <p class="text-white/60">
@@ -123,7 +123,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-map-pin class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Local SEO Structure</h3>
                             <p class="text-white/60">
@@ -133,7 +133,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-shield-check class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Secure Hosting</h3>
                             <p class="text-white/60">
@@ -178,9 +178,9 @@
                         </h2>
                     </div>
 
-                    <div class="grid md:grid-cols-3 gap-8">
+                    <div class="grid md:grid-cols-3 gap-8 text-white">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500  font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 1
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Fill Out the Intake Form</h3>
@@ -190,7 +190,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500 font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 2
                             </div>
                             <h3 class="text-lg font-semibold mb-2">We Build Your Site</h3>
@@ -200,7 +200,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500 font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 3
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Go Live</h3>
@@ -289,7 +289,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Works on All Devices</h3>
                             <p class="text-white/60">
@@ -299,7 +299,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamlessly Connected</h3>
                             <p class="text-white/60">
@@ -309,7 +309,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-trending-up class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Optimized to Win</h3>
                             <p class="text-white/60">
