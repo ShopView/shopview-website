@@ -18,9 +18,10 @@
                 @foreach($industry['profitability']['features'] as $feature)
                     <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                         <div class="w-10 h-10 flex items-center justify-center mb-4">
-                            <svg class="w-8 h-8 text-[#247CFF]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-                            </svg>
+                            @php
+                                $iconComponent = 'lucide-' . $feature['icon'];
+                            @endphp
+                            <x-dynamic-component :component="$iconComponent" class="w-8 h-8 text-[#247CFF]" />
                         </div>
                         <h3 class="text-lg font-semibold mb-2">{{ $feature['title'] }}</h3>
                         <p class="text-white/60">

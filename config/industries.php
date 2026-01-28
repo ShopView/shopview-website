@@ -11,9 +11,9 @@ return [
             'title' => 'Manage Your Diesel Truck Repair Shop in 30%+ Less Time',
             'intro' => 'ShopView simplifies and speeds up every part of your diesel truck service order management to boost your bottom line.',
             'features' => [
-                ['title' => 'Effortless Service Requests', 'description' => 'Save hours each day with fast repair request creation and management, ensuring clear and efficient customer communication.'],
-                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track repair status, technician performance, service history, and more in real time for efficient workflow management.'],
-                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.'],
+                ['title' => 'Effortless Service Requests', 'description' => 'Save hours each day with fast repair request creation and management, ensuring clear and efficient customer communication.', 'icon' => 'clipboard-list'],
+                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track repair status, technician performance, service history, and more in real time for efficient workflow management.', 'icon' => 'gauge'],
+                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.', 'icon' => 'zap'],
             ],
         ],
 
@@ -26,9 +26,9 @@ return [
             'title' => 'Simplified Inventory Management',
             'intro' => 'Save time and money by easily managing inventory levels, parts categorization and cycle counting.',
             'features' => [
-                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.'],
-                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.'],
-                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.'],
+                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.', 'icon' => 'warehouse'],
+                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.', 'icon' => 'refresh-cw'],
+                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.', 'icon' => 'file-bar-chart'],
             ],
         ],
 
@@ -41,9 +41,9 @@ return [
             'title' => 'Fast Invoicing and Payments',
             'intro' => 'Experience the simplest way to do invoicing and payments for diesel truck repair shops. Save time on processing. Get paid faster.',
             'features' => [
-                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to customers instantly.'],
-                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.'],
-                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.'],
+                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to customers instantly.', 'icon' => 'file-text'],
+                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.', 'icon' => 'calculator'],
+                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.', 'icon' => 'link'],
             ],
         ],
 
@@ -51,9 +51,9 @@ return [
             'title' => 'Become 20%+ More Profitable with In-Depth Reporting and Analytics',
             'intro' => 'Comprehensive reporting and analytics optimize your diesel truck repair shop\'s performance. Identify operational slippage. Profit more.',
             'features' => [
-                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.'],
-                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.'],
-                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your diesel shop meets its operational and financial goals.'],
+                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.', 'icon' => 'bar-chart'],
+                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.', 'icon' => 'trending-up'],
+                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your diesel shop meets its operational and financial goals.', 'icon' => 'target'],
             ],
         ],
     ],
@@ -68,9 +68,9 @@ return [
             'title' => 'Get Jobs Done Faster with Simplified Service Order Management',
             'intro' => 'Go from assignment to invoicing in a fraction of the time with ShopView. Managing your heavy equipment repair operations has never been easier.',
             'features' => [
-                ['title' => 'End-to-End Order Tracking', 'description' => 'Manage service orders in a straight line from intake to completion. Every step is clearly recorded to avoid delays and cost slippage.'],
-                ['title' => 'Time-Saving Automation', 'description' => 'Save hundreds of hours each month and reduce human error by automating routine tasks like scheduling and updates.'],
-                ['title' => 'Simple Service Histories', 'description' => 'ShopView makes creating comprehensive service histories easy so you can quickly refer to them to improve customer service.'],
+                ['title' => 'End-to-End Order Tracking', 'description' => 'Manage service orders in a straight line from intake to completion. Every step is clearly recorded to avoid delays and cost slippage.', 'icon' => 'list-checks'],
+                ['title' => 'Time-Saving Automation', 'description' => 'Save hundreds of hours each month and reduce human error by automating routine tasks like scheduling and updates.', 'icon' => 'clock'],
+                ['title' => 'Simple Service Histories', 'description' => 'ShopView makes creating comprehensive service histories easy so you can quickly refer to them to improve customer service.', 'icon' => 'history'],
             ],
         ],
 
@@ -83,9 +83,9 @@ return [
             'title' => 'Simple & More Accurate Inventory Control',
             'intro' => 'ShopView makes inventory control for heavy equipment repair shops less time-consuming and eliminates human error. It\'s inventory control, without the effort.',
             'features' => [
-                ['title' => 'Real-Time Parts Tracking', 'description' => 'Monitor inventory levels in real-time to maintain accuracy and avoid disruptions due to stockouts.'],
-                ['title' => 'Automated Reordering', 'description' => 'Automated reordering keeps inventory at optimal levels, saving you money by decreasing overstocking or shortages.'],
-                ['title' => 'In-Depth Reports & Alerts', 'description' => 'Generate detailed reports with just a few clicks about inventory levels, usage patterns, and reordering needs to optimize your stock management.'],
+                ['title' => 'Real-Time Parts Tracking', 'description' => 'Monitor inventory levels in real-time to maintain accuracy and avoid disruptions due to stockouts.', 'icon' => 'package-search'],
+                ['title' => 'Automated Reordering', 'description' => 'Automated reordering keeps inventory at optimal levels, saving you money by decreasing overstocking or shortages.', 'icon' => 'repeat'],
+                ['title' => 'In-Depth Reports & Alerts', 'description' => 'Generate detailed reports with just a few clicks about inventory levels, usage patterns, and reordering needs to optimize your stock management.', 'icon' => 'bell'],
             ],
         ],
 
@@ -98,9 +98,9 @@ return [
             'title' => 'Accurate Invoicing & Fast Payments',
             'intro' => 'ShopView\'s all-in-one invoicing and payments for heavy equipment repair shops speeds up the time it takes to get paid.',
             'features' => [
-                ['title' => 'Custom Invoicing', 'description' => 'Elevate your professionalism by creating tailored invoices that reflect your brand and provide clear, detailed billing information for your clients so you get paid sooner.'],
-                ['title' => 'Precision Billing', 'description' => 'Create more precise invoices by automatically calculating the cost of parts, labor, fees and taxes to reduce discrepancies and billing disputes.'],
-                ['title' => 'Seamless Integration', 'description' => 'ShopView connects with your existing accounting and business systems for fast, integrated invoicing, reducing the time spent on financial admin.'],
+                ['title' => 'Custom Invoicing', 'description' => 'Elevate your professionalism by creating tailored invoices that reflect your brand and provide clear, detailed billing information for your clients so you get paid sooner.', 'icon' => 'file-edit'],
+                ['title' => 'Precision Billing', 'description' => 'Create more precise invoices by automatically calculating the cost of parts, labor, fees and taxes to reduce discrepancies and billing disputes.', 'icon' => 'calculator'],
+                ['title' => 'Seamless Integration', 'description' => 'ShopView connects with your existing accounting and business systems for fast, integrated invoicing, reducing the time spent on financial admin.', 'icon' => 'link-2'],
             ],
         ],
 
@@ -108,9 +108,9 @@ return [
             'title' => 'ShopView is the #1 Way To Make Your Shop More Efficient & Profitable',
             'intro' => 'Run a more profitable shop with the easiest to use management system on the market. Built by repair shop operators just like you.',
             'features' => [
-                ['title' => 'Designed for Ease of Use', 'description' => 'Easy adoption with minimal training required allows your heavy equipment repair shop team to start using the software quickly.'],
-                ['title' => 'Full Support From Industry Specialists', 'description' => 'Comprehensive onboarding ensures your repair shop team is fully equipped to use the software from day one.'],
-                ['title' => 'Unbeatable Integration Capabilities', 'description' => 'ShopView seamlessly integrates with existing systems in your heavy equipment shop, allowing for a smooth transition and minimal disruption.'],
+                ['title' => 'Designed for Ease of Use', 'description' => 'Easy adoption with minimal training required allows your heavy equipment repair shop team to start using the software quickly.', 'icon' => 'smile'],
+                ['title' => 'Full Support From Industry Specialists', 'description' => 'Comprehensive onboarding ensures your repair shop team is fully equipped to use the software from day one.', 'icon' => 'headphones'],
+                ['title' => 'Unbeatable Integration Capabilities', 'description' => 'ShopView seamlessly integrates with existing systems in your heavy equipment shop, allowing for a smooth transition and minimal disruption.', 'icon' => 'puzzle'],
             ],
         ],
     ],
@@ -125,9 +125,9 @@ return [
             'title' => 'Maximize Fleet Uptime',
             'intro' => '',
             'features' => [
-                ['title' => 'Optimize Efficiency', 'description' => 'Streamline operations, reducing administrative burdens and maximizing productivity through automated and optimized processes.'],
-                ['title' => 'Seamless Communication', 'description' => 'Maintain real-time updates and effective coordination to enhance fleet performance and responsiveness.'],
-                ['title' => 'Extend Asset Longevity', 'description' => 'Proactive maintenance tracking and comprehensive service orders prevent costly breakdowns and ensure optimal performance.'],
+                ['title' => 'Optimize Efficiency', 'description' => 'Streamline operations, reducing administrative burdens and maximizing productivity through automated and optimized processes.', 'icon' => 'settings'],
+                ['title' => 'Seamless Communication', 'description' => 'Maintain real-time updates and effective coordination to enhance fleet performance and responsiveness.', 'icon' => 'message-circle'],
+                ['title' => 'Extend Asset Longevity', 'description' => 'Proactive maintenance tracking and comprehensive service orders prevent costly breakdowns and ensure optimal performance.', 'icon' => 'shield-check'],
             ],
         ],
 
@@ -140,9 +140,9 @@ return [
             'title' => 'Inventory and Procurement Management',
             'intro' => '',
             'features' => [
-                ['title' => 'Track Usage Patterns', 'description' => 'Monitor parts usage to understand demand and ensure optimal inventory levels.'],
-                ['title' => 'Forecast Needs', 'description' => 'Use data-driven insights to predict future inventory requirements, preventing stockouts and overstock.'],
-                ['title' => 'Reduce Rush Order Expenses', 'description' => 'Maintain necessary parts availability, minimizing costly last-minute orders and avoiding downtime.'],
+                ['title' => 'Track Usage Patterns', 'description' => 'Monitor parts usage to understand demand and ensure optimal inventory levels.', 'icon' => 'activity'],
+                ['title' => 'Forecast Needs', 'description' => 'Use data-driven insights to predict future inventory requirements, preventing stockouts and overstock.', 'icon' => 'trending-up'],
+                ['title' => 'Reduce Rush Order Expenses', 'description' => 'Maintain necessary parts availability, minimizing costly last-minute orders and avoiding downtime.', 'icon' => 'dollar-sign'],
             ],
         ],
 
@@ -155,9 +155,9 @@ return [
             'title' => 'Streamline Fleet Maintenance Reporting',
             'intro' => '',
             'features' => [
-                ['title' => 'Total Cost of Ownership', 'description' => 'Easily calculate the comprehensive costs associated with your fleet to make informed financial decisions.'],
-                ['title' => 'Run Batch Reports', 'description' => 'Generate comprehensive reports efficiently to analyze various aspects of your fleet operations.'],
-                ['title' => 'Analyze Technician Statistics', 'description' => 'Evaluate productivity and efficiency of your technicians with detailed statistical insights.'],
+                ['title' => 'Total Cost of Ownership', 'description' => 'Easily calculate the comprehensive costs associated with your fleet to make informed financial decisions.', 'icon' => 'receipt'],
+                ['title' => 'Run Batch Reports', 'description' => 'Generate comprehensive reports efficiently to analyze various aspects of your fleet operations.', 'icon' => 'layers'],
+                ['title' => 'Analyze Technician Statistics', 'description' => 'Evaluate productivity and efficiency of your technicians with detailed statistical insights.', 'icon' => 'users'],
             ],
         ],
 
@@ -165,9 +165,9 @@ return [
             'title' => 'Improve Fleet Safety and Compliance',
             'intro' => '',
             'features' => [
-                ['title' => 'Automated Regulatory Compliance', 'description' => 'Automatically adhere to safety regulations, reducing risk of fines and accidents, lowering insurance premiums.'],
-                ['title' => 'Proactive Maintenance Protocols', 'description' => 'Schedule and track preventive maintenance to avoid unexpected breakdowns, ensuring continuous fleet operation.'],
-                ['title' => 'Detailed Maintenance Reports', 'description' => 'Generate comprehensive reports to monitor maintenance activities, ensuring vehicles meet safety standards.'],
+                ['title' => 'Automated Regulatory Compliance', 'description' => 'Automatically adhere to safety regulations, reducing risk of fines and accidents, lowering insurance premiums.', 'icon' => 'shield'],
+                ['title' => 'Proactive Maintenance Protocols', 'description' => 'Schedule and track preventive maintenance to avoid unexpected breakdowns, ensuring continuous fleet operation.', 'icon' => 'calendar-check'],
+                ['title' => 'Detailed Maintenance Reports', 'description' => 'Generate comprehensive reports to monitor maintenance activities, ensuring vehicles meet safety standards.', 'icon' => 'file-check'],
             ],
         ],
     ],
@@ -182,9 +182,9 @@ return [
             'title' => 'Get Jobs Done Faster with Simplified Service Order Management',
             'intro' => '',
             'features' => [
-                ['title' => 'End-to-End Work Order Simplicity', 'description' => 'From initial intake to final invoice, ShopView streamlines every step.'],
-                ['title' => 'Save Hours Each Day', 'description' => 'Speed up service request creation and eliminate communication gaps.'],
-                ['title' => 'Monitor Repairs in Real-Time', 'description' => 'Track equipment status, technician productivity, and maintenance history.'],
+                ['title' => 'End-to-End Work Order Simplicity', 'description' => 'From initial intake to final invoice, ShopView streamlines every step.', 'icon' => 'workflow'],
+                ['title' => 'Save Hours Each Day', 'description' => 'Speed up service request creation and eliminate communication gaps.', 'icon' => 'clock-3'],
+                ['title' => 'Monitor Repairs in Real-Time', 'description' => 'Track equipment status, technician productivity, and maintenance history.', 'icon' => 'eye'],
             ],
         ],
 
@@ -197,9 +197,9 @@ return [
             'title' => 'Smarter Inventory Management for Ag Shops',
             'intro' => '',
             'features' => [
-                ['title' => 'Real-Time Parts Tracking', 'description' => 'Know exactly what you have in stock.'],
-                ['title' => 'Automated Reordering', 'description' => 'Set thresholds for frequently used parts.'],
-                ['title' => 'Powerful Reporting', 'description' => 'Track usage and improve inventory decisions.'],
+                ['title' => 'Real-Time Parts Tracking', 'description' => 'Know exactly what you have in stock.', 'icon' => 'scan'],
+                ['title' => 'Automated Reordering', 'description' => 'Set thresholds for frequently used parts.', 'icon' => 'rotate-cw'],
+                ['title' => 'Powerful Reporting', 'description' => 'Track usage and improve inventory decisions.', 'icon' => 'bar-chart-3'],
             ],
         ],
 
@@ -212,9 +212,9 @@ return [
             'title' => 'Get Paid Faster with Built-In Invoicing and Payments',
             'intro' => '',
             'features' => [
-                ['title' => 'Quick Invoicing', 'description' => 'Convert repair orders into professional invoices.'],
-                ['title' => 'Accurate Billing', 'description' => 'Automatically include parts, labor, shop fees, and tax.'],
-                ['title' => 'Seamless Integration', 'description' => 'Connect to accounting software.'],
+                ['title' => 'Quick Invoicing', 'description' => 'Convert repair orders into professional invoices.', 'icon' => 'zap'],
+                ['title' => 'Accurate Billing', 'description' => 'Automatically include parts, labor, shop fees, and tax.', 'icon' => 'check-square'],
+                ['title' => 'Seamless Integration', 'description' => 'Connect to accounting software.', 'icon' => 'plug'],
             ],
         ],
 
@@ -222,9 +222,9 @@ return [
             'title' => 'Grow Profits With Real-Time Analytics',
             'intro' => '',
             'features' => [
-                ['title' => 'Revenue and Efficiency Reports', 'description' => 'Reports on revenue, parts usage, technician efficiency, and labor margin.'],
-                ['title' => 'KPI Dashboards', 'description' => 'KPI dashboards that surface trends and operational blind spots.'],
-                ['title' => 'Preventive Maintenance Tracking', 'description' => 'Preventive maintenance tracking and service intervals.'],
+                ['title' => 'Revenue and Efficiency Reports', 'description' => 'Reports on revenue, parts usage, technician efficiency, and labor margin.', 'icon' => 'line-chart'],
+                ['title' => 'KPI Dashboards', 'description' => 'KPI dashboards that surface trends and operational blind spots.', 'icon' => 'layout-dashboard'],
+                ['title' => 'Preventive Maintenance Tracking', 'description' => 'Preventive maintenance tracking and service intervals.', 'icon' => 'clipboard-check'],
             ],
         ],
     ],
@@ -239,9 +239,9 @@ return [
             'title' => 'Manage Your Fire Truck & Ambulance Repair Shop in 30%+ Less Time',
             'intro' => 'ShopView simplifies and speeds up every part of your emergency vehicle service order management to boost your bottom line.',
             'features' => [
-                ['title' => 'Effortless Service Requests', 'description' => 'Save hours each day with fast repair request creation and management, ensuring clear and efficient communication with departments.'],
-                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track repair status, technician performance, service history, and compliance deadlines in real time for efficient workflow management.'],
-                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.'],
+                ['title' => 'Effortless Service Requests', 'description' => 'Save hours each day with fast repair request creation and management, ensuring clear and efficient communication with departments.', 'icon' => 'clipboard-list'],
+                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track repair status, technician performance, service history, and compliance deadlines in real time for efficient workflow management.', 'icon' => 'radio'],
+                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.', 'icon' => 'users-2'],
             ],
         ],
 
@@ -254,9 +254,9 @@ return [
             'title' => 'Simplified Inventory Management',
             'intro' => 'Save time and money by easily managing inventory levels, emergency-specific parts categorization and cycle counting.',
             'features' => [
-                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.'],
-                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.'],
-                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.'],
+                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.', 'icon' => 'map-pin'],
+                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.', 'icon' => 'shopping-cart'],
+                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.', 'icon' => 'chart-bar'],
             ],
         ],
 
@@ -269,9 +269,9 @@ return [
             'title' => 'Fast Invoicing and Payments',
             'intro' => 'Experience the simplest way to do invoicing and payments for fire truck and ambulance repair shops. Save time on processing. Get paid faster.',
             'features' => [
-                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to agencies or departments instantly.'],
-                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.'],
-                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.'],
+                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to agencies or departments instantly.', 'icon' => 'send'],
+                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.', 'icon' => 'badge-check'],
+                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.', 'icon' => 'cable'],
             ],
         ],
 
@@ -279,9 +279,9 @@ return [
             'title' => 'Become 20%+ More Profitable with In-Depth Reporting and Analytics',
             'intro' => 'Comprehensive reporting and analytics optimize your fire truck and ambulance repair shop\'s performance. Identify operational slippage. Profit more.',
             'features' => [
-                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.'],
-                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.'],
-                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your shop meets its operational and financial goals.'],
+                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.', 'icon' => 'file-spreadsheet'],
+                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.', 'icon' => 'arrow-up-right'],
+                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your shop meets its operational and financial goals.', 'icon' => 'crosshair'],
             ],
         ],
     ],
@@ -296,9 +296,9 @@ return [
             'title' => 'Get Jobs Done Faster with Simplified Service Order Management',
             'intro' => 'From axle work to reefer units, ShopView streamlines the entire repair process.',
             'features' => [
-                ['title' => 'Faster Service Order Intake', 'description' => 'Create detailed repair orders in seconds with templates, saved services, and instant access to past job history.'],
-                ['title' => 'Track Progress in Real Time', 'description' => 'Live visibility into open jobs and repair statuses across bays.'],
-                ['title' => 'Streamlined Communication', 'description' => 'Keeps techs, front office, and customers aligned without paperwork.'],
+                ['title' => 'Faster Service Order Intake', 'description' => 'Create detailed repair orders in seconds with templates, saved services, and instant access to past job history.', 'icon' => 'file-plus'],
+                ['title' => 'Track Progress in Real Time', 'description' => 'Live visibility into open jobs and repair statuses across bays.', 'icon' => 'monitor'],
+                ['title' => 'Streamlined Communication', 'description' => 'Keeps techs, front office, and customers aligned without paperwork.', 'icon' => 'mail'],
             ],
         ],
 
@@ -311,9 +311,9 @@ return [
             'title' => 'Trailer-Ready Inventory Management',
             'intro' => '',
             'features' => [
-                ['title' => 'Live Parts Tracking', 'description' => 'Real-time visibility across shop and mobile units.'],
-                ['title' => 'Automated Reordering', 'description' => 'Set thresholds to prevent stockouts.'],
-                ['title' => 'Detailed Inventory Reporting', 'description' => 'Identifies fast-moving parts and reduces overstock.'],
+                ['title' => 'Live Parts Tracking', 'description' => 'Real-time visibility across shop and mobile units.', 'icon' => 'radio-tower'],
+                ['title' => 'Automated Reordering', 'description' => 'Set thresholds to prevent stockouts.', 'icon' => 'arrows-up-from-line'],
+                ['title' => 'Detailed Inventory Reporting', 'description' => 'Identifies fast-moving parts and reduces overstock.', 'icon' => 'pie-chart'],
             ],
         ],
 
@@ -326,9 +326,9 @@ return [
             'title' => 'Simplify Invoicing and Get Paid Faster',
             'intro' => '',
             'features' => [
-                ['title' => 'Quick Invoicing', 'description' => 'Click to convert work orders into invoices instantly.'],
-                ['title' => 'Full Financial Clarity', 'description' => 'View margins and tech efficiency on every invoice.'],
-                ['title' => 'Seamless Integration', 'description' => 'Connect with accounting software like QuickBooks.'],
+                ['title' => 'Quick Invoicing', 'description' => 'Click to convert work orders into invoices instantly.', 'icon' => 'mouse-pointer-click'],
+                ['title' => 'Full Financial Clarity', 'description' => 'View margins and tech efficiency on every invoice.', 'icon' => 'glasses'],
+                ['title' => 'Seamless Integration', 'description' => 'Connect with accounting software like QuickBooks.', 'icon' => 'network'],
             ],
         ],
 
@@ -336,9 +336,9 @@ return [
             'title' => 'Boost Profits with Data-Driven Shop Management',
             'intro' => '',
             'features' => [
-                ['title' => 'Revenue Reporting', 'description' => 'Comprehensive reports on shop revenue and performance.'],
-                ['title' => 'Technician Productivity', 'description' => 'Track and improve technician efficiency.'],
-                ['title' => 'Inventory Usage Insights', 'description' => 'Optimize parts usage and reduce waste.'],
+                ['title' => 'Revenue Reporting', 'description' => 'Comprehensive reports on shop revenue and performance.', 'icon' => 'banknote'],
+                ['title' => 'Technician Productivity', 'description' => 'Track and improve technician efficiency.', 'icon' => 'wrench'],
+                ['title' => 'Inventory Usage Insights', 'description' => 'Optimize parts usage and reduce waste.', 'icon' => 'lightbulb'],
             ],
         ],
     ],
@@ -353,9 +353,9 @@ return [
             'title' => 'Manage Your Construction Fleet in 30%+ Less Time',
             'intro' => 'ShopView simplifies and speeds up every part of your construction fleet service order management to boost your bottom line.',
             'features' => [
-                ['title' => 'Effortless Service Requests', 'description' => 'Easily create and manage repair and PM requests for loaders, excavators, trucks, and site equipment.'],
-                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track repair progress, technician performance, service history, and asset status in real time.'],
-                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.'],
+                ['title' => 'Effortless Service Requests', 'description' => 'Easily create and manage repair and PM requests for loaders, excavators, trucks, and site equipment.', 'icon' => 'construction'],
+                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track repair progress, technician performance, service history, and asset status in real time.', 'icon' => 'activity'],
+                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.', 'icon' => 'trending-up'],
             ],
         ],
 
@@ -368,9 +368,9 @@ return [
             'title' => 'Simplified Inventory Management',
             'intro' => 'Save time and money by easily managing inventory levels, parts categorization and cycle counting.',
             'features' => [
-                ['title' => 'Multi-Location Management', 'description' => 'Track across yards, mobile units, and on-site trailers.'],
-                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.'],
-                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.'],
+                ['title' => 'Multi-Location Management', 'description' => 'Track across yards, mobile units, and on-site trailers.', 'icon' => 'building-2'],
+                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.', 'icon' => 'timer'],
+                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.', 'icon' => 'clipboard'],
             ],
         ],
 
@@ -383,9 +383,9 @@ return [
             'title' => 'Fast Invoicing and Payments',
             'intro' => 'Experience the simplest way to do invoicing and payments for construction fleet maintenance. Save time on processing. Get paid faster.',
             'features' => [
-                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to customers instantly.'],
-                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.'],
-                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations.'],
+                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to customers instantly.', 'icon' => 'rocket'],
+                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.', 'icon' => 'pencil-ruler'],
+                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations.', 'icon' => 'git-merge'],
             ],
         ],
 
@@ -393,9 +393,9 @@ return [
             'title' => 'Become 20%+ More Profitable with In-Depth Reporting and Analytics',
             'intro' => 'Comprehensive reporting and analytics optimize your construction fleet maintenance operation\'s performance. Identify operational slippage. Profit more.',
             'features' => [
-                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about revenue, parts inventory, technician efficiency, and preventive maintenance schedules.'],
-                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving fleet uptime and profitability.'],
-                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your operation meets its operational and financial goals.'],
+                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about revenue, parts inventory, technician efficiency, and preventive maintenance schedules.', 'icon' => 'scroll-text'],
+                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving fleet uptime and profitability.', 'icon' => 'chart-line'],
+                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your operation meets its operational and financial goals.', 'icon' => 'map-pinned'],
             ],
         ],
     ],
@@ -410,9 +410,9 @@ return [
             'title' => 'Manage Your Tow Truck Repair Shop in 30%+ Less Time',
             'intro' => 'ShopView simplifies and speeds up every part of your tow truck repair service order management to boost your bottom line.',
             'features' => [
-                ['title' => 'Effortless Service Requests', 'description' => 'Quickly log and manage service requests for wreckers, rollbacks, and recovery units with total clarity between techs, dispatch, and admin.'],
-                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track job status, technician performance, service history, and open work in real time to eliminate delays that slow your fleet down.'],
-                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.'],
+                ['title' => 'Effortless Service Requests', 'description' => 'Quickly log and manage service requests for wreckers, rollbacks, and recovery units with total clarity between techs, dispatch, and admin.', 'icon' => 'notebook-pen'],
+                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track job status, technician performance, service history, and open work in real time to eliminate delays that slow your fleet down.', 'icon' => 'signal'],
+                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.', 'icon' => 'arrow-big-up'],
             ],
         ],
 
@@ -425,9 +425,9 @@ return [
             'title' => 'Simplified Inventory Management',
             'intro' => 'Save time and money by easily managing inventory levels, specialized towing parts, hydraulics, winch components, and more.',
             'features' => [
-                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.'],
-                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.'],
-                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.'],
+                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.', 'icon' => 'store'],
+                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.', 'icon' => 'shopping-bag'],
+                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.', 'icon' => 'folder-open'],
             ],
         ],
 
@@ -440,9 +440,9 @@ return [
             'title' => 'Fast Invoicing and Payments',
             'intro' => 'Experience the simplest way to do invoicing and payments for tow truck repair shops. Save time on processing. Get paid faster.',
             'features' => [
-                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to internal ops or fleet owners instantly.'],
-                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.'],
-                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.'],
+                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to internal ops or fleet owners instantly.', 'icon' => 'bolt'],
+                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.', 'icon' => 'circle-check-big'],
+                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.', 'icon' => 'cloud'],
             ],
         ],
 
@@ -450,9 +450,9 @@ return [
             'title' => 'Become 20%+ More Profitable with In-Depth Reporting and Analytics',
             'intro' => 'Comprehensive reporting and analytics optimize your tow truck repair shop\'s performance. Identify operational slippage. Profit more.',
             'features' => [
-                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.'],
-                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.'],
-                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your shop meets its operational and financial goals.'],
+                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.', 'icon' => 'book-open'],
+                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.', 'icon' => 'chart-column-increasing'],
+                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your shop meets its operational and financial goals.', 'icon' => 'goal'],
             ],
         ],
     ],
@@ -467,9 +467,9 @@ return [
             'title' => 'Get Jobs Done Faster with Simplified Service Order Management',
             'intro' => '',
             'features' => [
-                ['title' => 'Fast, Flexible Work Orders', 'description' => 'Create and assign orders from anywhere on tablets or mobile devices.'],
-                ['title' => 'Field-Friendly Workflow', 'description' => 'Track status, parts, time, and notes in real-time without paperwork.'],
-                ['title' => 'Live Updates Across Teams', 'description' => 'Maintain real-time visibility across dispatch, technicians, and management.'],
+                ['title' => 'Fast, Flexible Work Orders', 'description' => 'Create and assign orders from anywhere on tablets or mobile devices.', 'icon' => 'smartphone'],
+                ['title' => 'Field-Friendly Workflow', 'description' => 'Track status, parts, time, and notes in real-time without paperwork.', 'icon' => 'clipboard-pen'],
+                ['title' => 'Live Updates Across Teams', 'description' => 'Maintain real-time visibility across dispatch, technicians, and management.', 'icon' => 'refresh-ccw'],
             ],
         ],
 
@@ -482,9 +482,9 @@ return [
             'title' => 'Smart Inventory Management for Mobile Operations',
             'intro' => '',
             'features' => [
-                ['title' => 'Track Inventory in Real-Time', 'description' => 'Monitor availability across vans, shops, or warehouses.'],
-                ['title' => 'Automated Reordering', 'description' => 'Set thresholds to prevent stockouts automatically.'],
-                ['title' => 'Parts Usage Reporting', 'description' => 'Analyze field parts consumption patterns.'],
+                ['title' => 'Track Inventory in Real-Time', 'description' => 'Monitor availability across vans, shops, or warehouses.', 'icon' => 'locate-fixed'],
+                ['title' => 'Automated Reordering', 'description' => 'Set thresholds to prevent stockouts automatically.', 'icon' => 'git-pull-request-arrow'],
+                ['title' => 'Parts Usage Reporting', 'description' => 'Analyze field parts consumption patterns.', 'icon' => 'chart-spline'],
             ],
         ],
 
@@ -497,9 +497,9 @@ return [
             'title' => 'Invoicing and Payments - Fast, Accurate, Mobile',
             'intro' => '',
             'features' => [
-                ['title' => 'Click Invoicing from the Field', 'description' => 'Convert work orders to invoices instantly.'],
-                ['title' => 'Precision Billing', 'description' => 'Automatically include parts, labor, fees, and taxes.'],
-                ['title' => 'Accounting Integration', 'description' => 'Sync with existing systems seamlessly.'],
+                ['title' => 'Click Invoicing from the Field', 'description' => 'Convert work orders to invoices instantly.', 'icon' => 'hand-pointer'],
+                ['title' => 'Precision Billing', 'description' => 'Automatically include parts, labor, fees, and taxes.', 'icon' => 'square-check'],
+                ['title' => 'Accounting Integration', 'description' => 'Sync with existing systems seamlessly.', 'icon' => 'webhook'],
             ],
         ],
 
@@ -507,9 +507,9 @@ return [
             'title' => 'Profit More with Performance Reporting and Analytics',
             'intro' => '',
             'features' => [
-                ['title' => 'Revenue Tracking', 'description' => 'Track revenue by technician, equipment type, or region.'],
-                ['title' => 'Technician Efficiency', 'description' => 'Measure technician efficiency in the field.'],
-                ['title' => 'One-Click Reports', 'description' => 'Analyze parts, labor, and margin with one-click reports.'],
+                ['title' => 'Revenue Tracking', 'description' => 'Track revenue by technician, equipment type, or region.', 'icon' => 'coins'],
+                ['title' => 'Technician Efficiency', 'description' => 'Measure technician efficiency in the field.', 'icon' => 'gauge-circle'],
+                ['title' => 'One-Click Reports', 'description' => 'Analyze parts, labor, and margin with one-click reports.', 'icon' => 'mouse-pointer-2'],
             ],
         ],
     ],
@@ -524,9 +524,9 @@ return [
             'title' => 'Manage Your RV Repair Shop in 30%+ Less Time',
             'intro' => 'ShopView simplifies and speeds up every part of your RV repair service order management to boost your bottom line.',
             'features' => [
-                ['title' => 'Effortless Service Requests', 'description' => 'Create and manage repair requests quickly, giving your team and customers full visibility into progress and expectations.'],
-                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track technician performance, work orders, service history, and job status instantly.'],
-                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.'],
+                ['title' => 'Effortless Service Requests', 'description' => 'Create and manage repair requests quickly, giving your team and customers full visibility into progress and expectations.', 'icon' => 'file-box'],
+                ['title' => 'Real-Time Shop Monitoring', 'description' => 'Track technician performance, work orders, service history, and job status instantly.', 'icon' => 'radar'],
+                ['title' => 'Level Up Technician Productivity', 'description' => 'A dedicated portal, zero slip time-clock, and collaborative work order tools help your techs operate at a higher level.', 'icon' => 'rocket'],
             ],
         ],
 
@@ -539,9 +539,9 @@ return [
             'title' => 'Simplified Inventory Management',
             'intro' => 'Save time and money by easily managing inventory levels, parts categorization and cycle counting.',
             'features' => [
-                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.'],
-                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.'],
-                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.'],
+                ['title' => 'Multi-Location Management', 'description' => 'Keep track of parts inventory, work orders, staff, reports, and more, across multiple locations in your shop.', 'icon' => 'map'],
+                ['title' => 'Automated Ordering', 'description' => 'Save hours each day by simplifying the reordering process with automated inventory thresholds.', 'icon' => 'repeat-2'],
+                ['title' => 'Comprehensive Reporting', 'description' => 'Generate detailed reports on inventory levels, usage patterns, and reordering needs to optimize stock management.', 'icon' => 'notebook'],
             ],
         ],
 
@@ -554,9 +554,9 @@ return [
             'title' => 'Fast Invoicing and Payments',
             'intro' => 'Experience the simplest way to do invoicing and payments for RV repair shops. Save time on processing. Get paid faster.',
             'features' => [
-                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to customers instantly.'],
-                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.'],
-                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.'],
+                ['title' => 'Quick Invoicing', 'description' => 'Convert service orders to invoices with a few clicks and send them to customers instantly.', 'icon' => 'plane'],
+                ['title' => 'Accurate Billing', 'description' => 'Invoice more accurately by viewing labor efficiencies, part margins, shop supplies, and taxes on every invoice.', 'icon' => 'scale'],
+                ['title' => 'Seamless Integration', 'description' => 'Easily connect your accounting and business tools to ShopView to streamline financial operations in your shop.', 'icon' => 'unplug'],
             ],
         ],
 
@@ -564,9 +564,9 @@ return [
             'title' => 'Become 20%+ More Profitable with In-Depth Reporting and Analytics',
             'intro' => 'Comprehensive reporting and analytics optimize your RV repair shop\'s performance. Identify operational slippage. Profit more.',
             'features' => [
-                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.'],
-                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.'],
-                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your shop meets its operational and financial goals.'],
+                ['title' => 'Detailed Reports', 'description' => 'In-depth reports about shop revenue, parts inventory, technician efficiency, and preventive maintenance schedules.', 'icon' => 'file-text'],
+                ['title' => 'Performance Boosting Analytics', 'description' => 'Robust data analytics help you identify opportunities for improving shop performance and profitability.', 'icon' => 'chart-area'],
+                ['title' => 'Performance Tracking', 'description' => 'Monitor key performance indicators (KPIs) to ensure your shop meets its operational and financial goals.', 'icon' => 'flag'],
             ],
         ],
     ],
@@ -581,9 +581,9 @@ return [
             'title' => 'Run Your Shop Without the Chaos',
             'intro' => 'ShopView helps independent shops manage parts without warehouse infrastructure, streamline admin without additional hires, and deliver a customer experience that drives repeat business.',
             'features' => [
-                ['title' => 'Work Orders in Under 2 Minutes', 'description' => 'Create detailed repair orders quickly with templates, saved services, and instant access to past job history.'],
-                ['title' => 'Real-Time Inventory Tracking', 'description' => 'Know what you have in stock with automated reorder alerts to prevent stockouts.'],
-                ['title' => 'Digital Invoicing', 'description' => 'Convert work orders to professional invoices with QuickBooks integration for seamless accounting.'],
+                ['title' => 'Work Orders in Under 2 Minutes', 'description' => 'Create detailed repair orders quickly with templates, saved services, and instant access to past job history.', 'icon' => 'hourglass'],
+                ['title' => 'Real-Time Inventory Tracking', 'description' => 'Know what you have in stock with automated reorder alerts to prevent stockouts.', 'icon' => 'package'],
+                ['title' => 'Digital Invoicing', 'description' => 'Convert work orders to professional invoices with QuickBooks integration for seamless accounting.', 'icon' => 'receipt-text'],
             ],
         ],
 
@@ -596,9 +596,9 @@ return [
             'title' => 'Parts Management Without the Complexity',
             'intro' => 'Manage your parts inventory without needing warehouse infrastructure or dedicated staff.',
             'features' => [
-                ['title' => 'Real-Time Stock Levels', 'description' => 'Always know what you have on hand without manual counting.'],
-                ['title' => 'Automated Reordering', 'description' => 'Set thresholds and get alerts before you run out of critical parts.'],
-                ['title' => 'Usage Tracking', 'description' => 'Understand which parts move fastest and optimize your inventory investment.'],
+                ['title' => 'Real-Time Stock Levels', 'description' => 'Always know what you have on hand without manual counting.', 'icon' => 'package-check'],
+                ['title' => 'Automated Reordering', 'description' => 'Set thresholds and get alerts before you run out of critical parts.', 'icon' => 'alarm-clock'],
+                ['title' => 'Usage Tracking', 'description' => 'Understand which parts move fastest and optimize your inventory investment.', 'icon' => 'chart-no-axes-combined'],
             ],
         ],
 
@@ -611,9 +611,9 @@ return [
             'title' => 'Get Paid Faster with Streamlined Billing',
             'intro' => 'Stop chasing payments. ShopView makes invoicing fast, accurate, and professional.',
             'features' => [
-                ['title' => 'One-Click Invoicing', 'description' => 'Convert completed work orders to invoices instantly.'],
-                ['title' => 'Accurate Billing', 'description' => 'Automatically include parts, labor, shop fees, and taxes.'],
-                ['title' => 'QuickBooks Integration', 'description' => 'Sync seamlessly with your accounting software.'],
+                ['title' => 'One-Click Invoicing', 'description' => 'Convert completed work orders to invoices instantly.', 'icon' => 'pointer'],
+                ['title' => 'Accurate Billing', 'description' => 'Automatically include parts, labor, shop fees, and taxes.', 'icon' => 'check-circle'],
+                ['title' => 'QuickBooks Integration', 'description' => 'Sync seamlessly with your accounting software.', 'icon' => 'boxes'],
             ],
         ],
 
@@ -621,9 +621,9 @@ return [
             'title' => 'Recover Lost Revenue and Grow Your Profits',
             'intro' => 'Shops save approximately 1.5 hours per technician daily and recover an estimated $5,200 monthly in billable time.',
             'features' => [
-                ['title' => 'Technician Time Tracking', 'description' => 'Capture every billable minute with zero-slip time clocks.'],
-                ['title' => 'Labor Cost Reports', 'description' => 'Understand your margins and identify opportunities for improvement.'],
-                ['title' => 'Performance Analytics', 'description' => 'Track KPIs that matter to your bottom line.'],
+                ['title' => 'Technician Time Tracking', 'description' => 'Capture every billable minute with zero-slip time clocks.', 'icon' => 'timer-reset'],
+                ['title' => 'Labor Cost Reports', 'description' => 'Understand your margins and identify opportunities for improvement.', 'icon' => 'file-chart-column'],
+                ['title' => 'Performance Analytics', 'description' => 'Track KPIs that matter to your bottom line.', 'icon' => 'chart-gantt'],
             ],
         ],
     ],
@@ -638,9 +638,9 @@ return [
             'title' => 'Centralized Oversight, Local Execution',
             'intro' => 'Manage service requests, job status, and team activity across all locations from a single dashboard.',
             'features' => [
-                ['title' => 'Real-Time Visibility', 'description' => 'See what\'s happening at every location instantly without phone calls or emails.'],
-                ['title' => 'Standardized Workflows', 'description' => 'Keep every team moving efficiently with consistent processes across shops.'],
-                ['title' => 'Fast Work Orders', 'description' => 'Create accurate estimates and work orders in under 2 minutes with prebuilt templates.'],
+                ['title' => 'Real-Time Visibility', 'description' => 'See what\'s happening at every location instantly without phone calls or emails.', 'icon' => 'binoculars'],
+                ['title' => 'Standardized Workflows', 'description' => 'Keep every team moving efficiently with consistent processes across shops.', 'icon' => 'workflow'],
+                ['title' => 'Fast Work Orders', 'description' => 'Create accurate estimates and work orders in under 2 minutes with prebuilt templates.', 'icon' => 'square-pen'],
             ],
         ],
 
@@ -653,9 +653,9 @@ return [
             'title' => 'Inventory Control Across All Locations',
             'intro' => 'Track parts across every shop and transfer inventory between locations when needed.',
             'features' => [
-                ['title' => 'Multi-Location Tracking', 'description' => 'Real-time inventory visibility across all shop locations.'],
-                ['title' => 'Parts Transfer', 'description' => 'Move inventory between shops to meet demand where it\'s needed.'],
-                ['title' => 'Location-Specific Reordering', 'description' => 'Set reorder points and usage reporting by location.'],
+                ['title' => 'Multi-Location Tracking', 'description' => 'Real-time inventory visibility across all shop locations.', 'icon' => 'map-pin-house'],
+                ['title' => 'Parts Transfer', 'description' => 'Move inventory between shops to meet demand where it\'s needed.', 'icon' => 'arrow-right-left'],
+                ['title' => 'Location-Specific Reordering', 'description' => 'Set reorder points and usage reporting by location.', 'icon' => 'settings-2'],
             ],
         ],
 
@@ -668,9 +668,9 @@ return [
             'title' => 'Flexible Billing for Multi-Location Operations',
             'intro' => 'Handle location-specific tax, pricing, and fee rules while maintaining centralized financial oversight.',
             'features' => [
-                ['title' => 'Location-Specific Rules', 'description' => 'Set unique tax rates, pricing, and fees for each location.'],
-                ['title' => 'Quick Invoice Conversion', 'description' => 'Convert jobs to invoices with automated billing calculations.'],
-                ['title' => 'Centralized Accounting', 'description' => 'QuickBooks integration for consolidated financial management.'],
+                ['title' => 'Location-Specific Rules', 'description' => 'Set unique tax rates, pricing, and fees for each location.', 'icon' => 'sliders-horizontal'],
+                ['title' => 'Quick Invoice Conversion', 'description' => 'Convert jobs to invoices with automated billing calculations.', 'icon' => 'sparkles'],
+                ['title' => 'Centralized Accounting', 'description' => 'QuickBooks integration for consolidated financial management.', 'icon' => 'server'],
             ],
         ],
 
@@ -678,9 +678,9 @@ return [
             'title' => 'Scale Output Without Scaling Admin',
             'intro' => 'Grow your operation without proportionally increasing administrative staff.',
             'features' => [
-                ['title' => 'Location Performance Reports', 'description' => 'Compare technician efficiency and revenue across locations.'],
-                ['title' => 'Parts Margin Analysis', 'description' => 'Track parts margins and usage trends by location.'],
-                ['title' => 'Time-to-Invoice Metrics', 'description' => 'Monitor how quickly jobs move from completion to payment.'],
+                ['title' => 'Location Performance Reports', 'description' => 'Compare technician efficiency and revenue across locations.', 'icon' => 'chart-column-big'],
+                ['title' => 'Parts Margin Analysis', 'description' => 'Track parts margins and usage trends by location.', 'icon' => 'percent'],
+                ['title' => 'Time-to-Invoice Metrics', 'description' => 'Monitor how quickly jobs move from completion to payment.', 'icon' => 'clock-arrow-up'],
             ],
         ],
     ],

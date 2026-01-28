@@ -29,7 +29,7 @@ $integrationsLinks = [
 
 $solutionsLinks = [
     ['href' => '/diesel-truck-repair-shop-software', 'label' => 'Diesel Truck Repair', 'desc' => 'Built for parts-heavy environments', 'icon' => '/images/icons/Diesel Truck Repair Shop.webp'],
-    ['href' => '/heavy-equipment-repair-software', 'label' => 'Heavy Equipment Repair', 'desc' => 'Built for field service and complex machinery', 'icon' => '/images/icons/Heavy Equipment Repair.webp'],
+    ['href' => '/heavy-equipment-repair-software', 'label' => 'Heavy Equipment Repair', 'desc' => 'Built for complex machinery', 'icon' => '/images/icons/Heavy Equipment Repair.webp'],
     ['href' => '/fleet-maintenance-management-software', 'label' => 'Fleet Maintenance', 'desc' => 'Built for internal fleet operations', 'icon' => '/images/icons/Fleet Maintenance Management.webp'],
     ['href' => '/agriculture-equipment-repair-shop-software', 'label' => 'Agricultural Equipment', 'desc' => 'Built for seasonal demands', 'icon' => '/images/icons/Agricultural_Equipment_Repair_247CFF.webp'],
     ['href' => '/fire-truck-and-ambulance-repair-shop-software', 'label' => 'Fire Truck & Ambulance', 'desc' => 'Built for uptime and compliance', 'icon' => '/images/icons/Fire Truck & Ambulance Repair.webp'],
@@ -255,63 +255,87 @@ $solutionsLinks = [
     </div>
 
     <!-- Mobile Navigation -->
-    <div id="mobile-menu" class="lg:hidden hidden bg-[#12161b]/95 backdrop-blur-md border-t border-white/10 max-h-[80vh] overflow-y-auto">
-        <div class="container py-6">
+    <div id="mobile-menu" class="lg:hidden hidden bg-[#12161b]/95 backdrop-blur-md border-t border-white/10 max-h-[80vh] overflow-y-auto pt-3 pb-6">
+        <div class="container py-4">
             <!-- Product Accordion -->
-            <div class="border-b border-white/10 pb-4 mb-4">
-                <button class="mobile-accordion-btn w-full flex items-center justify-between text-base font-medium text-white/80 hover:text-white transition-colors duration-200" data-target="mobile-product">
-                    Product
+            <div class="border-b border-white/10 pb-3 mb-3">
+                <button class="mobile-accordion-btn w-full flex items-center justify-between py-3 text-base font-semibold text-white hover:text-primary-400 transition-colors duration-200" data-target="mobile-product">
+                    <span>Product</span>
                     <svg class="mobile-accordion-icon w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
-                <div id="mobile-product" class="hidden mt-3 ml-4 space-y-4">
+                <div id="mobile-product" class="hidden mt-2 space-y-4">
                     <!-- Run the Shop -->
                     <div>
-                        <h4 class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2">Run the Shop</h4>
-                        <div class="space-y-2">
+                        <h4 class="text-xs font-semibold text-white/50 uppercase tracking-wider mb-2 px-1">Run the Shop</h4>
+                        <div class="space-y-1">
                             @foreach($runTheShopLinks as $link)
-                                <a href="{{ $link['href'] }}" class="block text-sm text-white/60 hover:text-white transition-colors">
-                                    {{ $link['label'] }}
+                                <a href="{{ $link['href'] }}" class="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white/5 active:bg-white/10 transition-all group/item">
+                                    @if(!empty($link['icon']))
+                                        <div class="w-8 h-8 bg-white/10 flex items-center justify-center shrink-0 rounded-lg group-hover/item:bg-primary-500/20 transition-colors">
+                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-5 h-5 object-contain">
+                                        </div>
+                                    @endif
+                                    <span class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">{{ $link['label'] }}</span>
                                 </a>
                             @endforeach
                         </div>
                     </div>
                     <!-- Customer Experience -->
                     <div>
-                        <h4 class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2">Customer Experience</h4>
-                        <div class="space-y-2">
+                        <h4 class="text-xs font-semibold text-white/50 uppercase tracking-wider mb-2 px-1">Customer Experience</h4>
+                        <div class="space-y-1">
                             @foreach($customerExperienceLinks as $link)
-                                <a href="{{ $link['href'] }}" class="flex items-center gap-2 text-sm text-white/60 hover:text-white transition-colors">
-                                    {{ $link['label'] }}
-                                    @if(isset($link['new']) && $link['new'])
-                                        <span class="px-1.5 py-0.5 bg-primary-500/20 text-primary-400 text-[10px] font-semibold rounded uppercase">New</span>
+                                <a href="{{ $link['href'] }}" class="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white/5 active:bg-white/10 transition-all group/item">
+                                    @if(!empty($link['icon']))
+                                        <div class="w-8 h-8 bg-white/10 flex items-center justify-center shrink-0 rounded-lg group-hover/item:bg-primary-500/20 transition-colors">
+                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-5 h-5 object-contain">
+                                        </div>
                                     @endif
+                                    <div class="flex items-center gap-2 flex-1 min-w-0">
+                                        <span class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">{{ $link['label'] }}</span>
+                                        @if(isset($link['new']) && $link['new'])
+                                            <span class="px-1.5 py-0.5 bg-primary-500/20 text-primary-400 text-[10px] font-semibold rounded uppercase shrink-0">New</span>
+                                        @endif
+                                    </div>
                                 </a>
                             @endforeach
                         </div>
                     </div>
                     <!-- Growth & Services -->
                     <div>
-                        <h4 class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2">Growth & Services</h4>
-                        <div class="space-y-2">
+                        <h4 class="text-xs font-semibold text-white/50 uppercase tracking-wider mb-2 px-1">Growth & Services</h4>
+                        <div class="space-y-1">
                             @foreach($growthServicesLinks as $link)
-                                <a href="{{ $link['href'] }}" class="flex items-center gap-2 text-sm text-white/60 hover:text-white transition-colors">
-                                    {{ $link['label'] }}
-                                    @if(isset($link['new']) && $link['new'])
-                                        <span class="px-1.5 py-0.5 bg-primary-500/20 text-primary-400 text-[10px] font-semibold rounded uppercase">New</span>
+                                <a href="{{ $link['href'] }}" class="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white/5 active:bg-white/10 transition-all group/item">
+                                    @if(!empty($link['icon']))
+                                        <div class="w-8 h-8 bg-white/10 flex items-center justify-center shrink-0 rounded-lg group-hover/item:bg-primary-500/20 transition-colors">
+                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-5 h-5 object-contain">
+                                        </div>
                                     @endif
+                                    <div class="flex items-center gap-2 flex-1 min-w-0">
+                                        <span class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">{{ $link['label'] }}</span>
+                                        @if(isset($link['new']) && $link['new'])
+                                            <span class="px-1.5 py-0.5 bg-primary-500/20 text-primary-400 text-[10px] font-semibold rounded uppercase shrink-0">New</span>
+                                        @endif
+                                    </div>
                                 </a>
                             @endforeach
                         </div>
                     </div>
                     <!-- Integrations -->
                     <div>
-                        <h4 class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-2">Integrations</h4>
-                        <div class="space-y-2">
+                        <h4 class="text-xs font-semibold text-white/50 uppercase tracking-wider mb-2 px-1">Integrations</h4>
+                        <div class="space-y-1">
                             @foreach($integrationsLinks as $link)
-                                <a href="{{ $link['href'] }}" class="block text-sm text-white/60 hover:text-white transition-colors">
-                                    {{ $link['label'] }}
+                                <a href="{{ $link['href'] }}" class="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white/5 active:bg-white/10 transition-all group/item">
+                                    @if(!empty($link['icon']))
+                                        <div class="w-8 h-8 bg-white/10 flex items-center justify-center shrink-0 rounded-lg group-hover/item:bg-primary-500/20 transition-colors">
+                                            <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-5 h-5 object-contain">
+                                        </div>
+                                    @endif
+                                    <span class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">{{ $link['label'] }}</span>
                                 </a>
                             @endforeach
                         </div>
@@ -320,40 +344,55 @@ $solutionsLinks = [
             </div>
 
             <!-- Solutions Accordion -->
-            <div class="border-b border-white/10 pb-4 mb-4">
-                <button class="mobile-accordion-btn w-full flex items-center justify-between text-base font-medium text-white/80 hover:text-white transition-colors duration-200" data-target="mobile-solutions">
-                    Solutions
+            <div class="border-b border-white/10 pb-3 mb-3">
+                <button class="mobile-accordion-btn w-full flex items-center justify-between py-3 text-base font-semibold text-white hover:text-primary-400 transition-colors duration-200" data-target="mobile-solutions">
+                    <span>Solutions</span>
                     <svg class="mobile-accordion-icon w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
-                <div id="mobile-solutions" class="hidden mt-3 ml-4 space-y-2">
+                <div id="mobile-solutions" class="hidden mt-2 space-y-1">
                     @foreach($solutionsLinks as $link)
-                        <a href="{{ $link['href'] }}" class="block text-sm text-white/60 hover:text-white transition-colors">
-                            {{ $link['label'] }}
+                        <a href="{{ $link['href'] }}" class="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white/5 active:bg-white/10 transition-all group/item">
+                            @if(!empty($link['icon']))
+                                <div class="w-8 h-8 bg-white/10 flex items-center justify-center shrink-0 rounded-lg group-hover/item:bg-primary-500/20 transition-colors">
+                                    <img src="{{ $link['icon'] }}" alt="{{ $link['label'] }}" class="w-5 h-5 object-contain">
+                                </div>
+                            @endif
+                            <span class="text-sm font-medium text-white group-hover/item:text-primary-400 transition-colors">{{ $link['label'] }}</span>
                         </a>
                     @endforeach
                 </div>
             </div>
 
             <!-- Other Links -->
-            <a href="/pricing" class="block text-base font-medium text-white/80 hover:text-white transition-colors duration-200 mb-4">
-                Pricing
-            </a>
+            <div class="border-b border-white/10 pb-3 mb-3">
+                <a href="/pricing" class="flex items-center py-3 text-base font-semibold text-white hover:text-primary-400 transition-colors duration-200">
+                    Pricing
+                </a>
+            </div>
 
-            <div class="pt-4 border-t border-white/10 space-y-3">
-                <a href="tel:+15874389423" class="block text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
+            <div class="pt-2 space-y-2.5">
+                <a href="tel:+15874389423" class="flex items-center gap-2 py-2.5 text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
                     +1-587-438-9423
                 </a>
-                <a href="/login" class="block text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
+                <a href="/login" class="flex items-center gap-2 py-2.5 text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                    </svg>
                     Login
                 </a>
-                <a href="/demo" class="btn btn-secondary text-sm w-full text-center">
-                    Book a Demo
-                </a>
-                <a href="/trial" class="btn btn-primary text-sm w-full text-center">
-                    Start Free Trial
-                </a>
+                <div class="pt-2 space-y-2">
+                    <a href="/demo" class="btn btn-secondary text-sm w-full text-center py-3">
+                        Book a Demo
+                    </a>
+                    <a href="/trial" class="btn btn-primary text-sm w-full text-center py-3">
+                        Start Free Trial
+                    </a>
+                </div>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
             Join thousands of heavy-duty repair shops that trust ShopView to manage their operations profitably.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="/demo" class="btn btn-secondary bg-white text-blue-600 hover:bg-white/90 text-lg px-8 py-4">
+            <a href="/demo" class="btn btn-secondary bg-white !text-blue-600 hover:!bg-white/90 text-lg px-8 py-4">
                 Get a Demo
             </a>
             <a href="/pricing" class="btn btn-secondary text-lg px-8 py-4">

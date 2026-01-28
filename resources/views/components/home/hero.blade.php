@@ -47,7 +47,7 @@
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="/trial" class="btn btn-primary text-lg px-8 py-4">
+            <a href="/trial" class="btn btn-primary text-lg px-8 py-4 border-2 border-transparent">
                 Start Free Trial
             </a>
             <a href="/demo" class="btn btn-secondary text-lg px-8 py-4">

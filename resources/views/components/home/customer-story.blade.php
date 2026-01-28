@@ -50,7 +50,7 @@
                         </div>
                     </div>
 
-                    <a href="/case-studies/foothills-group" class="btn btn-secondary">
+                    <a href="/case-studies/case-study-foothills-group" class="btn btn-secondary">
                         Read Full Case Study →
                     </a>
                 </div>

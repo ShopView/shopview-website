@@ -27,9 +27,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-calendar class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Real-Time Calendar</h3>
                             <p class="text-white/60">
                                 Instantly view technician availability, work order status, and upcoming jobs, all in one place.
@@ -37,9 +35,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-clipboard-check class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Job Assignment Made Easy</h3>
                             <p class="text-white/60">
                                 Assign work to technicians based on workload, shift schedule and tech availability
@@ -47,9 +43,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-refresh-cw class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Live Updates Across Devices</h3>
                             <p class="text-white/60">
                                 Any changes update instantly across your team's devices, so everyone's on the same page, always.
@@ -75,9 +69,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-alert-triangle class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Smart Job Overlap Protection</h3>
                             <p class="text-white/60">
                                 Get visual alerts for any job overlaps or gaps in the schedule that need to be filled.
@@ -85,9 +77,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-eye class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Track Status at a Glance</h3>
                             <p class="text-white/60">
                                 See whether a job is scheduled, in progress, delayed, or complete in real time.
@@ -95,9 +85,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-grid-3x3 class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Custom View Options</h3>
                             <p class="text-white/60">
                                 Switch between daily, weekly, and technician-specific views to manage your floor how you want.
@@ -123,9 +111,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-bar-chart-3 class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Manage Load Distribution</h3>
                             <p class="text-white/60">
                                 See which techs are overbooked or underutilized - and reassign work in seconds.
@@ -133,9 +119,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-users class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Build Technician Schedules</h3>
                             <p class="text-white/60">
                                 Plan ahead with visibility into service windows, shift planning, and technician time off.
@@ -143,9 +127,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-clock class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Reduce Idle Time</h3>
                             <p class="text-white/60">
                                 Fill gaps in your schedule and keep bays full - without overloading your team.
@@ -242,7 +224,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
                             <p class="text-white/60">
@@ -252,7 +234,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
                             <p class="text-white/60">
@@ -262,7 +244,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-headphones class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>
                             <p class="text-white/60">

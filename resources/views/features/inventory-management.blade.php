@@ -50,9 +50,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-bar-chart-3 class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Real-Time Inventory Levels</h3>
                             <p class="text-white/60">
                                 Always know what you have, what you need, and what's on the way.
@@ -60,9 +58,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-database class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Organized Parts Catalog</h3>
                             <p class="text-white/60">
                                 Sort and categorize by item, vendor, or job - and view full purchase history.
@@ -70,9 +66,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-file-text class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Automatic Purchase Order Generation</h3>
                             <p class="text-white/60">
                                 ShopView auto-generates POs, so you focus on repairs, not paperwork.
@@ -98,9 +92,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-eye class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Cross-Location Visibility</h3>
                             <p class="text-white/60">
                                 Track parts usage and availability across all shop locations in one dashboard.
@@ -108,9 +100,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-arrow-right-left class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Transfer & Reallocate Parts</h3>
                             <p class="text-white/60">
                                 Move stock between shops in seconds - avoid delays, stockouts, or overordering.
@@ -118,9 +108,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-bar-chart-3 class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Consolidated Reporting</h3>
                             <p class="text-white/60">
                                 View inventory levels, usage trends, and cost reports in one place.
@@ -217,7 +205,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on all devices</h3>
                             <p class="text-white/60 text-sm">
@@ -227,7 +215,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless integration</h3>
                             <p class="text-white/60 text-sm">
@@ -237,7 +225,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-headphones class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive support</h3>
                             <p class="text-white/60 text-sm">

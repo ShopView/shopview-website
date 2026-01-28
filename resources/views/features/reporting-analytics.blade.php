@@ -27,9 +27,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-dollar-sign class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Live Revenue Reporting</h3>
                             <p class="text-white/60">
                                 See how your shop is performing by day, week, or month - and spot patterns at a glance.
@@ -37,9 +35,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-clock class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Technician Efficiency</h3>
                             <p class="text-white/60">
                                 Track actual hours vs. billed hours to uncover missed profit and underutilized time.
@@ -47,9 +43,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-users class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Service Advisor Performance</h3>
                             <p class="text-white/60">
                                 Easily identify your top-performing advisor to drive higher profits.
@@ -75,9 +69,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-users class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Labor Margin Insights</h3>
                             <p class="text-white/60">
                                 Measure labor profitability down to the task - by job, by service advisor, or by technician.
@@ -85,9 +77,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-package class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Parts Margin Insights</h3>
                             <p class="text-white/60">
                                 Measure margins by job and ensure you're hitting your targets - so your parts department stays profitable.
@@ -95,9 +85,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-bar-chart-3 class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Technician Performance</h3>
                             <p class="text-white/60">
                                 Track tech times accurately. Identify unbilled hours and optimize your heavy duty work order billing process.
@@ -217,7 +205,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on all devices</h3>
                             <p class="text-white/60 text-sm">
@@ -227,7 +215,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless integration</h3>
                             <p class="text-white/60 text-sm">
@@ -237,7 +225,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                            <x-lucide-headphones class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive support</h3>
                             <p class="text-white/60 text-sm">

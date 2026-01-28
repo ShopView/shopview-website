@@ -50,9 +50,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-clipboard-check class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Job-Based Time Tracking</h3>
                             <p class="text-white/60">
                                 Time is logged per job - so every minute is accounted for.
@@ -60,9 +58,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-play class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Start/Stop Simplicity</h3>
                             <p class="text-white/60">
                                 Techs tap once to clock in and again to clock into the next job. That's it.
@@ -70,9 +66,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-clock class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">No More Missed Time</h3>
                             <p class="text-white/60">
                                 Time data syncs directly into work orders and invoices, so nothing slips through the cracks.
@@ -98,9 +92,7 @@
 
                     <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-file-text class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Instant Payroll Reports</h3>
                             <p class="text-white/60">
                                 View total hours, jobs completed, and idle time by technician or team.
@@ -108,9 +100,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-trending-up class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">More Billable Time</h3>
                             <p class="text-white/60">
                                 Shops using ShopView's time clock average 20% more billable technician time.
@@ -136,9 +126,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-eye class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Live Activity View</h3>
                             <p class="text-white/60">
                                 See which techs are clocked in, what they're working on, and what they are doing next.
@@ -146,9 +134,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-bar-chart-3 class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Track Efficiency</h3>
                             <p class="text-white/60">
                                 Compare billed hours to actual job time to spot inefficiencies, boost output, and coach your team.
@@ -156,9 +142,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
-                            </div>
+                            <x-lucide-file-text class="w-8 h-8 text-[#247CFF] mb-4" />
                             <h3 class="text-lg font-semibold mb-2">Audit-Ready Logs</h3>
                             <p class="text-white/60">
                                 Every punch is recorded and stored for transparency and reporting.
@@ -255,7 +239,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
                             <p class="text-white/60">
@@ -265,7 +249,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
                             <p class="text-white/60">
@@ -275,7 +259,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-headphones class="w-7 h-7 text-white" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>
                             <p class="text-white/60">

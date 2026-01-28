@@ -100,13 +100,51 @@ h1, h2, h3, h4, h5, h6 {
   align-items: start;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .guide-layout {
-    grid-template-columns: 1fr;
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+    gap: 0 !important;
+    align-items: stretch !important;
   }
 
   .guide-sidebar {
-    display: none;
+    display: flex !important;
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    order: 0 !important;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    padding: 1.5rem;
+    background: rgba(26, 29, 36, 0.95);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: auto !important;
+  }
+  
+  .guide-content {
+    order: 1 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    position: relative !important;
+    margin-top: 0 !important;
+  }
+  
+  .guide-sidebar-title {
+    padding-left: 0;
+    margin-bottom: 1.25rem;
+  }
+  
+  .guide-nav {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
   }
 }
 
