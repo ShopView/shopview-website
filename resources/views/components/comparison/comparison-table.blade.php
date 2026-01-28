@@ -45,8 +45,27 @@
 
                 <!-- Table Body -->
                 @foreach($categories as $category)
+                    @php
+                        $categoryIcons = [
+                            'Work Orders & Estimates' => '/images/icons/Work Orders.webp',
+                            'Technician Tracking' => '/images/icons/Time clock.webp',
+                            'Inventory Management' => '/images/icons/Parts inventory.webp',
+                            'Invoicing & Payments' => '/images/icons/Estimates & Invoices.webp',
+                            'Reporting & Analytics' => '/images/icons/Reporting.webp',
+                            'Pricing & Support' => '/images/icons/Customer Portal.webp',
+                        ];
+                        $categoryIcon = $categoryIcons[$category['name']] ?? null;
+                    @endphp
                     <!-- Category Header -->
-                    <div class="bg-white/[0.03] border-b border-white/10 px-4 md:px-6 py-3">
+                    <div class="bg-white/3 border-b border-white/10 px-4 md:px-6 py-3 flex items-center gap-3">
+                        @if($categoryIcon)
+                            <img 
+                                src="{{ $categoryIcon }}" 
+                                alt="{{ $category['name'] }}"
+                                class="w-5 h-5 md:w-6 md:h-6 shrink-0"
+                                onerror="this.style.display='none'"
+                            />
+                        @endif
                         <span class="text-primary-400 text-sm font-semibold uppercase tracking-wide">
                             {{ $category['name'] }}
                         </span>
@@ -54,7 +73,7 @@
 
                     <!-- Category Features -->
                     @foreach($category['features'] as $feature)
-                        <div class="grid grid-cols-3 border-b border-white/5 hover:bg-white/[0.02] transition-colors">
+                        <div class="grid grid-cols-3 border-b border-white/5 hover:bg-white/2 transition-colors">
                             <div class="p-4 md:px-6 md:py-4 flex items-center">
                                 <span class="text-white/80 text-sm md:text-base">{{ $feature['name'] }}</span>
                             </div>
