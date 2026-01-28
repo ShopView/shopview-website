@@ -28,7 +28,7 @@
                     <div class="grid md:grid-cols-2 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-zap class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Complete Work Orders in 60 Seconds</h3>
                             <p class="text-white/60">
@@ -38,7 +38,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-dollar-sign class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Never Miss Revenue Again</h3>
                             <p class="text-white/60">
@@ -48,7 +48,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-message-square class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Ask Questions, Get Instant Answers</h3>
                             <p class="text-white/60">
@@ -58,7 +58,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-bar-chart-3 class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Smart Performance Insights</h3>
                             <p class="text-white/60">
@@ -82,7 +82,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500 font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 1
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Fast, Clear Work Orders</h3>
@@ -92,7 +92,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500  font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 2
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Manage More Effectively</h3>
@@ -102,7 +102,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500 font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 3
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Save Time & Effort</h3>
@@ -200,7 +200,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
                             <p class="text-white/60">
@@ -210,7 +210,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
                             <p class="text-white/60">
@@ -220,7 +220,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-headphones class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>
                             <p class="text-white/60">

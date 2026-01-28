@@ -28,7 +28,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-file-text class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Bill Heavy-Duty Work Orders More Efficiently</h3>
                             <p class="text-white/60">
@@ -38,7 +38,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-check-circle class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Faster Credit Approvals for Fleet Customers</h3>
                             <p class="text-white/60">
@@ -48,7 +48,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-shield-check class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Minimize Billing Errors</h3>
                             <p class="text-white/60">
@@ -76,7 +76,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-mouse-pointer-click class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">One-Click Billing for Fleet Accounts</h3>
                             <p class="text-white/60">
@@ -86,7 +86,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-eye class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Track Approval Status with Ease</h3>
                             <p class="text-white/60">
@@ -96,7 +96,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Works on Any Device</h3>
                             <p class="text-white/60">
@@ -121,7 +121,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-plug class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Connect Your Accounts in Minutes</h3>
                             <p class="text-white/60">
@@ -131,7 +131,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-refresh-cw class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Status Sync Built In</h3>
                             <p class="text-white/60">
@@ -141,7 +141,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-cloud class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Access Anywhere</h3>
                             <p class="text-white/60">
@@ -201,7 +201,7 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-monitor class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Available on All Devices</h3>
                             <p class="text-white/60 text-sm">
@@ -211,7 +211,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Seamless Integration</h3>
                             <p class="text-white/60 text-sm">
@@ -221,7 +221,7 @@
 
                         <div class="text-center">
                             <div class="w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4">
-                                <div class="w-8 h-8 bg-primary-400/40 rounded"></div>
+                                <x-lucide-headphones class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Comprehensive Support</h3>
                             <p class="text-white/60 text-sm">

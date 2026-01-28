@@ -24,8 +24,8 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-red-500/20 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-red-400/40 rounded"></div>
+                            <div class="w-12 h-12 flex items-center justify-center mb-4">
+                                <x-lucide-clock class="w-6 h-6 text-red-400" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Manual Lookups Delay Job Approvals</h3>
                             <p class="text-white/60">
@@ -34,8 +34,8 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-red-500/20 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-red-400/40 rounded"></div>
+                            <div class="w-12 h-12 flex items-center justify-center mb-4">
+                                <x-lucide-alert-triangle class="w-6 h-6 text-red-400" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Outdated Averages</h3>
                             <p class="text-white/60">
@@ -44,8 +44,8 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
-                            <div class="w-12 h-12 bg-red-500/20 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-red-400/40 rounded"></div>
+                            <div class="w-12 h-12 flex items-center justify-center mb-4">
+                                <x-lucide-dollar-sign class="w-6 h-6 text-red-400" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Missed Lines = Missed Revenue</h3>
                             <p class="text-white/60">
@@ -69,7 +69,7 @@
 
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500 font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 1
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Type a Prompt</h3>
@@ -79,7 +79,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500  font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 2
                             </div>
                             <h3 class="text-lg font-semibold mb-2">ShopCoach AI Instantly Builds</h3>
@@ -89,7 +89,7 @@
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
-                            <div class="w-12 h-12 bg-primary-500 text-black font-bold rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div class="w-12 h-12 bg-primary-500 font-bold rounded-full flex items-center justify-center mx-auto mb-4">
                                 3
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Review and Approve</h3>
@@ -162,7 +162,7 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-zap class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Work Orders in Seconds</h3>
                             <p class="text-white/60">
@@ -172,7 +172,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-trending-up class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">More Revenue Per Job</h3>
                             <p class="text-white/60">
@@ -182,7 +182,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-target class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Accurate by Design</h3>
                             <p class="text-white/60">
@@ -192,7 +192,7 @@
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6">
                             <div class="w-10 h-10 flex items-center justify-center mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-wrench class="w-8 h-8 text-[#247CFF]" />
                             </div>
                             <h3 class="text-lg font-semibold mb-2">Less Admin, More Repairs</h3>
                             <p class="text-white/60">
@@ -217,35 +217,35 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-search class="w-6 h-6 text-[#247CFF]" />
                             </div>
                             <h3 class="text-sm font-semibold">VIN Decoding + Service History</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-package class="w-6 h-6 text-[#247CFF]" />
                             </div>
                             <h3 class="text-sm font-semibold">Inventory & Parts Catalog Access</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-link class="w-6 h-6 text-[#247CFF]" />
                             </div>
                             <h3 class="text-sm font-semibold">QuickBooks Integration</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-cloud class="w-6 h-6 text-[#247CFF]" />
                             </div>
                             <h3 class="text-sm font-semibold">Cloud-Based + Mobile-Friendly</h3>
                         </div>
 
                         <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center">
                             <div class="w-10 h-10 flex items-center justify-center mx-auto mb-4">
-                                <div class="w-6 h-6 bg-primary-400/40 rounded"></div>
+                                <x-lucide-play class="w-6 h-6 text-[#247CFF]" />
                             </div>
                             <h3 class="text-sm font-semibold">Use It on Day One, No Training Required</h3>
                         </div>
