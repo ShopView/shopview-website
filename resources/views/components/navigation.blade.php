@@ -229,7 +229,7 @@ $solutionsLinks = [
                     <a href="tel:+15874389423" class="text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
                         +1-587-438-9423
                     </a>
-                    <a href="/login" class="text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
+                    <a href="https://app.shopview.com" class="text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
                         Login
                     </a>
                     <a href="/demo" class="btn btn-secondary text-base">
@@ -379,7 +379,7 @@ $solutionsLinks = [
                     </svg>
                     +1-587-438-9423
                 </a>
-                <a href="/login" class="flex items-center gap-2 py-2.5 text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
+                <a href="https://app.shopview.com" class="flex items-center gap-2 py-2.5 text-base font-medium text-white/80 hover:text-white transition-colors duration-200">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
                     </svg>

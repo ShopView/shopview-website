@@ -9,11 +9,23 @@
             <p class="text-white/80 text-lg mb-4">
                 Our team handles the heavy lifting so you can focus on repairs, not data entry.
             </p>
-            <ul class="text-white/60 space-y-2 mb-8">
-                <li>Free data migration from {{ $competitor }}</li>
-                <li>Dedicated onboarding specialist</li>
-                <li>Live training for your whole team</li>
-                <li>Zero downtime during transition</li>
+            <ul class="text-white/60 space-y-3 mb-8 max-w-2xl mx-auto">
+                <li class="flex items-center justify-center gap-3">
+                    <x-lucide-check class="w-6 h-6 text-primary-400 shrink-0" />
+                    <span>Free data migration from {{ $competitor }}</span>
+                </li>
+                <li class="flex items-center justify-center gap-3">
+                    <x-lucide-check class="w-6 h-6 text-primary-400 shrink-0" />
+                    <span>Dedicated onboarding specialist</span>
+                </li>
+                <li class="flex items-center justify-center gap-3">
+                    <x-lucide-check class="w-6 h-6 text-primary-400 shrink-0" />
+                    <span>Live training for your whole team</span>
+                </li>
+                <li class="flex items-center justify-center gap-3">
+                    <x-lucide-check class="w-6 h-6 text-primary-400 shrink-0" />
+                    <span>Zero downtime during transition</span>
+                </li>
             </ul>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="https://app.shopview.com/register" class="btn btn-primary">
